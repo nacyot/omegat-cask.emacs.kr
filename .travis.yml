@@ -9,7 +9,7 @@ env:
   - GIT_AUTHOR_EMAIL=propellerheaven@gmail.com
   - secure: JKHtv1rUnfdngdBR5PNExPvVvngv3M1h2Juj3ay9YEmR719AUuPg7sH0a4Ty8+9HC4WodUQlMCrXz8Guk1uQ6luFln5IE+wvXSmL8wALKXWwn+w+oAZxt0njprDnZhDpjCtLkz4m7ylRBbwZijePA6ToBLpJdTr918ceDzjsbvk=
 before_install:
-- sudo apt-get install -qq openjdk-6-jdk omegat
+- sudo apt-get install -qq openjdk-6-jdk
 before_script:
 - rm -rf target
 - mkdir -p tm/auto
@@ -18,8 +18,10 @@ before_script:
 - git clone https://github.com/nacyot/omegat-dictionary.git dictionary
 - git clone https://github.com/nacyot/cask.github.io.git source
 - git clone https://github.com/nacyot/cask.emacs.kr.git website
+- wget http://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Latest/OmegaT%203.0.8%20update%204/OmegaT_3.0.8_04_Beta_Linux.tar.bz2
+- tar xvf OmegaT_3.0.8_04_Beta_Linux.tar.bz2
 script:
-- "/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java -jar /usr/share/omegat/OmegaT.jar . --mode=console-translate"
+- "/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java -jar ./OmegaT/OmegaT.jar . --mode=console-translate"
 after_success:
 - cat ./target/03-usage.md
 - rm -rf ./target/.git
