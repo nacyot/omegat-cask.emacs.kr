@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_3" segtype="sentence" srclang="EN"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_4" segtype="sentence" srclang="EN"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -1096,7 +1096,7 @@ layout: default
 permalink: api.html
 ---</seg>
       </tuv>
-      <tuv xml:lang="KO" changeid="nacyot" changedate="20140424T230945Z" creationid="nacyot" creationdate="20140424T230945Z">
+      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T133935Z" creationid="nacyot" creationdate="20140424T230945Z">
         <seg>---
 title: API
 layout: default
@@ -1112,7 +1112,7 @@ layout: default
 permalink: dsl.html
 ---</seg>
       </tuv>
-      <tuv xml:lang="KO" changeid="nacyot" changedate="20140424T232131Z" creationid="nacyot" creationdate="20140424T232131Z">
+      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T133938Z" creationid="nacyot" creationdate="20140424T232131Z">
         <seg>---
 title: DSL
 layout: default
@@ -1128,7 +1128,7 @@ layout: default
 permalink: development.html
 ---</seg>
       </tuv>
-      <tuv xml:lang="KO" changeid="nacyot" changedate="20140424T232349Z" creationid="nacyot" creationdate="20140424T232349Z">
+      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T133949Z" creationid="nacyot" creationdate="20140424T232349Z">
         <seg>---
 title: 개발
 layout: default
@@ -1144,7 +1144,7 @@ layout: default
 permalink: examples.html
 ---</seg>
       </tuv>
-      <tuv xml:lang="KO" changeid="nacyot" changedate="20140424T232233Z" creationid="nacyot" creationdate="20140424T232221Z">
+      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T133940Z" creationid="nacyot" creationdate="20140424T232221Z">
         <seg>---
 title: 예제
 layout: default
@@ -1160,7 +1160,7 @@ layout: default
 permalink: installation.html
 ---</seg>
       </tuv>
-      <tuv xml:lang="KO" changeid="nacyot" changedate="20140425T134929Z" creationid="nacyot" creationdate="20140425T134929Z">
+      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T133931Z" creationid="nacyot" creationdate="20140425T134929Z">
         <seg>---
 title: 설치
 layout: default
@@ -1176,7 +1176,7 @@ layout: default
 permalink: tools.html
 ---</seg>
       </tuv>
-      <tuv xml:lang="KO" changeid="nacyot" changedate="20140424T232305Z" creationid="nacyot" creationdate="20140424T232305Z">
+      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T133943Z" creationid="nacyot" creationdate="20140424T232305Z">
         <seg>---
 title: 도구
 layout: default
@@ -1192,7 +1192,7 @@ layout: default
 permalink: troubleshoot.html
 ---</seg>
       </tuv>
-      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T120250Z" creationid="nacyot" creationdate="20140425T140035Z">
+      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T133945Z" creationid="nacyot" creationdate="20140425T140035Z">
         <seg>---
 title: 문제 해결하기
 layout: default
@@ -1208,7 +1208,7 @@ layout: default
 permalink: usage.html
 ---</seg>
       </tuv>
-      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T120243Z" creationid="nacyot" creationdate="20140425T135230Z">
+      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T133933Z" creationid="nacyot" creationdate="20140425T135230Z">
         <seg>---
 title: 사용법
 layout: default
@@ -1221,16 +1221,22 @@ permalink: usage.html
         <seg>---
 title: Why Cask?</seg>
       </tuv>
-      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T120819Z" creationid="nacyot" creationdate="20140425T132520Z">
-        <seg>---title: 왜 Cask인가?</seg>
+      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T133928Z" creationid="nacyot" creationdate="20140425T132520Z">
+        <seg>---
+title: 왜 Cask인가?
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv xml:lang="EN">
         <seg>--- title: Cask layout: default permalink: index.html ---</seg>
       </tuv>
-      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T120543Z" creationid="nacyot" creationdate="20140427T120543Z">
-        <seg>--- title: Cask layout: default permalink: index.html ---</seg>
+      <tuv xml:lang="KO" changeid="nacyot" changedate="20140427T133926Z" creationid="nacyot" creationdate="20140427T120543Z">
+        <seg>---
+title: Cask 
+layout: default 
+permalink: index.html 
+---</seg>
       </tuv>
     </tu>
     <tu>

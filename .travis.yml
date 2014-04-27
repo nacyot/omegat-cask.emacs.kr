@@ -21,6 +21,7 @@ before_script:
 script:
 - "/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java -jar /usr/share/omegat/OmegaT.jar . --mode=console-translate"
 after_success:
+- cat ./target/03-usage.md
 - rm -rf ./target/.git
 - cp -r ./website/.git ./target/.git
 - rake rewrite_cname add_link_to_translator rebuild_sidebar resize_font
