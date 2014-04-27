@@ -1,0 +1,3885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_3" segtype="sentence" srclang="EN"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN">
+        <seg># cask.github.io</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T230813Z" creationid="nacyot" creationdate="20140424T230813Z">
+        <seg># cask.github.io</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## API</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T230944Z" creationid="nacyot" creationdate="20140424T230944Z">
+        <seg>## API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Commands &amp; Options</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T033033Z" creationid="nacyot" creationdate="20140425T153922Z">
+        <seg>## 명령어와 옵션</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## DSL</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232132Z" creationid="nacyot" creationdate="20140424T232132Z">
+        <seg>## DSL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Development</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T114534Z" creationid="nacyot" creationdate="20140424T232353Z">
+        <seg>## 개발(Development)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Examples</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232238Z" creationid="nacyot" creationdate="20140424T232222Z">
+        <seg>## 예제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Installation</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134931Z" creationid="nacyot" creationdate="20140425T134931Z">
+        <seg>## 설치</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Tools</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232308Z" creationid="nacyot" creationdate="20140424T232308Z">
+        <seg>## 도구</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Troubleshoot</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T140044Z" creationid="nacyot" creationdate="20140425T140038Z">
+        <seg>## 문제 해결하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Usage</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135232Z" creationid="nacyot" creationdate="20140425T135232Z">
+        <seg>## 사용법</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Why Cask?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132528Z" creationid="nacyot" creationdate="20140425T132528Z">
+        <seg>## 왜 Cask인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Commands</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135329Z" creationid="nacyot" creationdate="20140425T135329Z">
+        <seg>### 명령어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Completion</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232319Z" creationid="nacyot" creationdate="20140424T232319Z">
+        <seg>### 자동완성</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Contribution</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132132Z" creationid="nacyot" creationdate="20140425T132132Z">
+        <seg>### 기여하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Documentation and Examples</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231003Z" creationid="nacyot" creationdate="20140424T230956Z">
+        <seg>### 문서와 예제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Emacs Lisp package development</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132618Z" creationid="nacyot" creationdate="20140425T132618Z">
+        <seg>### Emacs Lisp 패키지 개발</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Emacs configuration</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232243Z" creationid="nacyot" creationdate="20140424T232243Z">
+        <seg>### Emacs 설정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Error running a Cask command</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T140102Z" creationid="nacyot" creationdate="20140425T140102Z">
+        <seg>### Cask 명령어에서 에러가 발생할 때</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### I still don't get it, give me some real examples</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T114336Z" creationid="nacyot" creationdate="20140426T010107Z">
+        <seg>### 실제로 사용되는 예제를 보고싶다면</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Options</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135611Z" creationid="nacyot" creationdate="20140425T135611Z">
+        <seg>### 옵션</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Pallet</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135953Z" creationid="nacyot" creationdate="20140425T135953Z">
+        <seg>### Pallet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### package development</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232251Z" creationid="nacyot" creationdate="20140424T232251Z">
+        <seg>### 패키지 개발</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="build"&gt;&lt;/a&gt;build</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135553Z" creationid="nacyot" creationdate="20140425T135553Z">
+        <seg>#### &lt;a id="build"&gt;&lt;/a&gt;build</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-add-dependency"&gt;&lt;/a&gt;cask-add-dependency `(bundle name &amp;rest args)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231812Z" creationid="nacyot" creationdate="20140424T231812Z">
+        <seg>#### &lt;a id="cask-add-dependency"&gt;&lt;/a&gt;cask-add-dependency `(bundle name &amp;rest args)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-add-source"&gt;&lt;/a&gt;cask-add-source `(bundle name-or-alias &amp;optional url)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231848Z" creationid="nacyot" creationdate="20140424T231848Z">
+        <seg>#### &lt;a id="cask-add-source"&gt;&lt;/a&gt;cask-add-source `(bundle name-or-alias &amp;optional url)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-build"&gt;&lt;/a&gt;cask-build `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231909Z" creationid="nacyot" creationdate="20140424T231909Z">
+        <seg>#### &lt;a id="cask-build"&gt;&lt;/a&gt;cask-build `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-caskify"&gt;&lt;/a&gt;cask-caskify `(bundle &amp;optional dev-mode)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231102Z" creationid="nacyot" creationdate="20140424T231102Z">
+        <seg>#### &lt;a id="cask-caskify"&gt;&lt;/a&gt;cask-caskify `(bundle &amp;optional dev-mode)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-clean-elc"&gt;&lt;/a&gt;cask-clean-elc `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231920Z" creationid="nacyot" creationdate="20140424T231920Z">
+        <seg>#### &lt;a id="cask-clean-elc"&gt;&lt;/a&gt;cask-clean-elc `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-define-package-file"&gt;&lt;/a&gt;cask-define-package-file `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231708Z" creationid="nacyot" creationdate="20140424T231708Z">
+        <seg>#### &lt;a id="cask-define-package-file"&gt;&lt;/a&gt;cask-define-package-file `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-define-package-string"&gt;&lt;/a&gt;cask-define-package-string `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231705Z" creationid="nacyot" creationdate="20140424T231705Z">
+        <seg>#### &lt;a id="cask-define-package-string"&gt;&lt;/a&gt;cask-define-package-string `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-dependencies"&gt;&lt;/a&gt;cask-dependencies `(bundle &amp;optional deep)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231208Z" creationid="nacyot" creationdate="20140424T231208Z">
+        <seg>#### &lt;a id="cask-dependencies"&gt;&lt;/a&gt;cask-dependencies `(bundle &amp;optional deep)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-dependency-path"&gt;&lt;/a&gt;cask-dependency-path `(bundle name)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231712Z" creationid="nacyot" creationdate="20140424T231712Z">
+        <seg>#### &lt;a id="cask-dependency-path"&gt;&lt;/a&gt;cask-dependency-path `(bundle name)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-development-dependencies"&gt;&lt;/a&gt;cask-development-dependencies `(bundle &amp;optional deep)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231205Z" creationid="nacyot" creationdate="20140424T231205Z">
+        <seg>#### &lt;a id="cask-development-dependencies"&gt;&lt;/a&gt;cask-development-dependencies `(bundle &amp;optional deep)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-elpa-path"&gt;&lt;/a&gt;cask-elpa-path `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231146Z" creationid="nacyot" creationdate="20140424T231146Z">
+        <seg>#### &lt;a id="cask-elpa-path"&gt;&lt;/a&gt;cask-elpa-path `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-exec-path"&gt;&lt;/a&gt;cask-exec-path `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231145Z" creationid="nacyot" creationdate="20140424T231145Z">
+        <seg>#### &lt;a id="cask-exec-path"&gt;&lt;/a&gt;cask-exec-path `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-file"&gt;&lt;/a&gt;cask-file `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231744Z" creationid="nacyot" creationdate="20140424T231744Z">
+        <seg>#### &lt;a id="cask-file"&gt;&lt;/a&gt;cask-file `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-files"&gt;&lt;/a&gt;cask-files `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231803Z" creationid="nacyot" creationdate="20140424T231803Z">
+        <seg>#### &lt;a id="cask-files"&gt;&lt;/a&gt;cask-files `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-find-dependency"&gt;&lt;/a&gt;cask-find-dependency `(bundle name)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231259Z" creationid="nacyot" creationdate="20140424T231259Z">
+        <seg>#### &lt;a id="cask-find-dependency"&gt;&lt;/a&gt;cask-find-dependency `(bundle name)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-has-dependency"&gt;&lt;/a&gt;cask-has-dependency `(bundle name)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231213Z" creationid="nacyot" creationdate="20140424T231213Z">
+        <seg>#### &lt;a id="cask-has-dependency"&gt;&lt;/a&gt;cask-has-dependency `(bundle name)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-initialize"&gt;&lt;/a&gt;cask-initialize `(&amp;optional project-path)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231018Z" creationid="nacyot" creationdate="20140424T231018Z">
+        <seg>#### &lt;a id="cask-initialize"&gt;&lt;/a&gt;cask-initialize `(&amp;optional project-path)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-install"&gt;&lt;/a&gt;cask-install `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231052Z" creationid="nacyot" creationdate="20140424T231052Z">
+        <seg>#### &lt;a id="cask-install"&gt;&lt;/a&gt;cask-install `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-installed-dependencies"&gt;&lt;/a&gt;cask-installed-dependencies `(bundle &amp;optional deep)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231211Z" creationid="nacyot" creationdate="20140424T231211Z">
+        <seg>#### &lt;a id="cask-installed-dependencies"&gt;&lt;/a&gt;cask-installed-dependencies `(bundle &amp;optional deep)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-link"&gt;&lt;/a&gt;cask-link `(bundle name source)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231956Z" creationid="nacyot" creationdate="20140424T231956Z">
+        <seg>#### &lt;a id="cask-link"&gt;&lt;/a&gt;cask-link `(bundle name source)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-link-delete"&gt;&lt;/a&gt;cask-link-delete `(bundle name)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231957Z" creationid="nacyot" creationdate="20140424T231957Z">
+        <seg>#### &lt;a id="cask-link-delete"&gt;&lt;/a&gt;cask-link-delete `(bundle name)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-linked-p"&gt;&lt;/a&gt;cask-linked-p `(bundle name)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232013Z" creationid="nacyot" creationdate="20140424T232013Z">
+        <seg>#### &lt;a id="cask-linked-p"&gt;&lt;/a&gt;cask-linked-p `(bundle name)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-links"&gt;&lt;/a&gt;cask-links `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231950Z" creationid="nacyot" creationdate="20140424T231950Z">
+        <seg>#### &lt;a id="cask-links"&gt;&lt;/a&gt;cask-links `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-load-path"&gt;&lt;/a&gt;cask-load-path `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231141Z" creationid="nacyot" creationdate="20140424T231141Z">
+        <seg>#### &lt;a id="cask-load-path"&gt;&lt;/a&gt;cask-load-path `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-outdated"&gt;&lt;/a&gt;cask-outdated `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231022Z" creationid="nacyot" creationdate="20140424T231022Z">
+        <seg>#### &lt;a id="cask-outdated"&gt;&lt;/a&gt;cask-outdated `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-package"&gt;&lt;/a&gt;cask-package `(bundle &amp;optional target-dir)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232014Z" creationid="nacyot" creationdate="20140424T232014Z">
+        <seg>#### &lt;a id="cask-package"&gt;&lt;/a&gt;cask-package `(bundle &amp;optional target-dir)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-package-description"&gt;&lt;/a&gt;cask-package-description `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231126Z" creationid="nacyot" creationdate="20140424T231126Z">
+        <seg>#### &lt;a id="cask-package-description"&gt;&lt;/a&gt;cask-package-description `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-package-name"&gt;&lt;/a&gt;cask-package-name `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231109Z" creationid="nacyot" creationdate="20140424T231109Z">
+        <seg>#### &lt;a id="cask-package-name"&gt;&lt;/a&gt;cask-package-name `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-package-version"&gt;&lt;/a&gt;cask-package-version `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231116Z" creationid="nacyot" creationdate="20140424T231116Z">
+        <seg>#### &lt;a id="cask-package-version"&gt;&lt;/a&gt;cask-package-version `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-path"&gt;&lt;/a&gt;cask-path `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231733Z" creationid="nacyot" creationdate="20140424T231733Z">
+        <seg>#### &lt;a id="cask-path"&gt;&lt;/a&gt;cask-path `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-remove-source"&gt;&lt;/a&gt;cask-remove-source `(bundle name)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231900Z" creationid="nacyot" creationdate="20140424T231900Z">
+        <seg>#### &lt;a id="cask-remove-source"&gt;&lt;/a&gt;cask-remove-source `(bundle name)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-runtime-dependencies"&gt;&lt;/a&gt;cask-runtime-dependencies `(bundle &amp;optional deep)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231148Z" creationid="nacyot" creationdate="20140424T231148Z">
+        <seg>#### &lt;a id="cask-runtime-dependencies"&gt;&lt;/a&gt;cask-runtime-dependencies `(bundle &amp;optional deep)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-setup"&gt;&lt;/a&gt;cask-setup `(project-path)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231005Z" creationid="nacyot" creationdate="20140424T231005Z">
+        <seg>#### &lt;a id="cask-setup"&gt;&lt;/a&gt;cask-setup `(project-path)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-update"&gt;&lt;/a&gt;cask-update `(bundle)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231020Z" creationid="nacyot" creationdate="20140424T231020Z">
+        <seg>#### &lt;a id="cask-update"&gt;&lt;/a&gt;cask-update `(bundle)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="cask-version"&gt;&lt;/a&gt;cask-version `()`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231132Z" creationid="nacyot" creationdate="20140424T231132Z">
+        <seg>#### &lt;a id="cask-version"&gt;&lt;/a&gt;cask-version `()`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="clean-elc"&gt;&lt;/a&gt;clean-elc</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135603Z" creationid="nacyot" creationdate="20140425T135603Z">
+        <seg>#### &lt;a id="clean-elc"&gt;&lt;/a&gt;clean-elc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="depends-on"&gt;&lt;/a&gt;depends-on</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232157Z" creationid="nacyot" creationdate="20140424T232157Z">
+        <seg>#### &lt;a id="depends-on"&gt;&lt;/a&gt;depends-on</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="development"&gt;&lt;/a&gt;development</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232213Z" creationid="nacyot" creationdate="20140424T232213Z">
+        <seg>#### &lt;a id="development"&gt;&lt;/a&gt;개발</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="exec"&gt;&lt;/a&gt;exec</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135332Z" creationid="nacyot" creationdate="20140425T135332Z">
+        <seg>#### &lt;a id="exec"&gt;&lt;/a&gt;exec</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="files"&gt;&lt;/a&gt;files</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232216Z" creationid="nacyot" creationdate="20140424T232216Z">
+        <seg>#### &lt;a id="files"&gt;&lt;/a&gt;files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="help"&gt;&lt;/a&gt;help, --help, -h</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135341Z" creationid="nacyot" creationdate="20140425T135341Z">
+        <seg>#### &lt;a id="help"&gt;&lt;/a&gt;help, --help, -h</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="info"&gt;&lt;/a&gt;info</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135441Z" creationid="nacyot" creationdate="20140425T135441Z">
+        <seg>#### &lt;a id="info"&gt;&lt;/a&gt;info</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="init"&gt;&lt;/a&gt;init</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135451Z" creationid="nacyot" creationdate="20140425T135451Z">
+        <seg>#### &lt;a id="init"&gt;&lt;/a&gt;init</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="install"&gt;&lt;/a&gt;install</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135457Z" creationid="nacyot" creationdate="20140425T135457Z">
+        <seg>#### &lt;a id="install"&gt;&lt;/a&gt;install</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="link"&gt;&lt;/a&gt;link</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135604Z" creationid="nacyot" creationdate="20140425T135604Z">
+        <seg>#### &lt;a id="link"&gt;&lt;/a&gt;link</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="list"&gt;&lt;/a&gt;list</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135456Z" creationid="nacyot" creationdate="20140425T135456Z">
+        <seg>#### &lt;a id="list"&gt;&lt;/a&gt;list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="load-path"&gt;&lt;/a&gt;load-path</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154146Z" creationid="nacyot" creationdate="20140425T154146Z">
+        <seg>#### &lt;a id="load-path"&gt;&lt;/a&gt;load-path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="option-debug"&gt;&lt;/a&gt;--debug</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135702Z" creationid="nacyot" creationdate="20140425T135702Z">
+        <seg>#### &lt;a id="option-debug"&gt;&lt;/a&gt;--debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="option-dev"&gt;&lt;/a&gt;--dev</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135621Z" creationid="nacyot" creationdate="20140425T135621Z">
+        <seg>#### &lt;a id="option-dev"&gt;&lt;/a&gt;--dev</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="option-path"&gt;&lt;/a&gt;--path</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135718Z" creationid="nacyot" creationdate="20140425T135718Z">
+        <seg>#### &lt;a id="option-path"&gt;&lt;/a&gt;--path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="option-verbose"&gt;&lt;/a&gt;--verbose</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135725Z" creationid="nacyot" creationdate="20140425T135725Z">
+        <seg>#### &lt;a id="option-verbose"&gt;&lt;/a&gt;--verbose</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="option-version"&gt;&lt;/a&gt;--version</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135612Z" creationid="nacyot" creationdate="20140425T135612Z">
+        <seg>#### &lt;a id="option-version"&gt;&lt;/a&gt;--version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="outdated"&gt;&lt;/a&gt;outdated</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135501Z" creationid="nacyot" creationdate="20140425T135501Z">
+        <seg>#### &lt;a id="outdated"&gt;&lt;/a&gt;outdated</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="package"&gt;&lt;/a&gt;package</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232149Z" creationid="nacyot" creationdate="20140424T232149Z">
+        <seg>#### &lt;a id="package"&gt;&lt;/a&gt;package</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="package-directory"&gt;&lt;/a&gt;package-directory</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135527Z" creationid="nacyot" creationdate="20140425T135527Z">
+        <seg>#### &lt;a id="package-directory"&gt;&lt;/a&gt;package-directory</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="package-file"&gt;&lt;/a&gt;package-file</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232152Z" creationid="nacyot" creationdate="20140424T232152Z">
+        <seg>#### &lt;a id="package-file"&gt;&lt;/a&gt;package-file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="path"&gt;&lt;/a&gt;path</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135528Z" creationid="nacyot" creationdate="20140425T135528Z">
+        <seg>#### &lt;a id="path"&gt;&lt;/a&gt;path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="source"&gt;&lt;/a&gt;source</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232134Z" creationid="nacyot" creationdate="20140424T232134Z">
+        <seg>#### &lt;a id="source"&gt;&lt;/a&gt;source</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="update"&gt;&lt;/a&gt;update</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135531Z" creationid="nacyot" creationdate="20140425T135531Z">
+        <seg>#### &lt;a id="update"&gt;&lt;/a&gt;update</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="upgrade-cask"&gt;&lt;/a&gt;upgrade-cask</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135539Z" creationid="nacyot" creationdate="20140425T135539Z">
+        <seg>#### &lt;a id="upgrade-cask"&gt;&lt;/a&gt;upgrade-cask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### &lt;a id="version"&gt;&lt;/a&gt;version</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135540Z" creationid="nacyot" creationdate="20140425T135540Z">
+        <seg>#### &lt;a id="version"&gt;&lt;/a&gt;version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### Bundled packages</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032550Z" creationid="nacyot" creationdate="20140425T152644Z">
+        <seg>#### 번들된 패키지(의존 라이브러리를 포함한 패키지)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### Cask</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134913Z" creationid="nacyot" creationdate="20140425T134913Z">
+        <seg>#### Cask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### El-get</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T133943Z" creationid="nacyot" creationdate="20140425T133943Z">
+        <seg>#### El-get</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### Submodules</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134234Z" creationid="nacyot" creationdate="20140425T134234Z">
+        <seg>#### 서브 모듈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### Using package.el directly</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134211Z" creationid="nacyot" creationdate="20140425T134211Z">
+        <seg>#### package.el 직접 사용하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(depends-on "auto-complete")
+(depends-on "dash")
+(depends-on "f")
+(depends-on "flycheck")
+(depends-on "helm")
+(depends-on "magit")
+(depends-on "popup")
+(depends-on "projectile")
+(depends-on "s")
+(depends-on "smartparens")
+(depends-on "yasnippet")
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232245Z" creationid="nacyot" creationdate="20140424T232245Z">
+        <seg>(depends-on "auto-complete")
+(depends-on "dash")
+(depends-on "f")
+(depends-on "flycheck")
+(depends-on "helm")
+(depends-on "magit")
+(depends-on "popup")
+(depends-on "projectile")
+(depends-on "s")
+(depends-on "smartparens")
+(depends-on "yasnippet")
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(development
+ (depends-on "el-mock")
+ (depends-on "ecukes")
+ (depends-on "ert-runner"))
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232253Z" creationid="nacyot" creationdate="20140424T232253Z">
+        <seg>(development
+ (depends-on "el-mock")
+ (depends-on "ecukes")
+ (depends-on "ert-runner"))
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(files "super.el" "bin")</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232253Z" creationid="nacyot" creationdate="20140424T232253Z">
+        <seg>(files "super.el" "bin")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(package-file "super.el")</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232252Z" creationid="nacyot" creationdate="20140424T232252Z">
+        <seg>(package-file "super.el")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120109Z" creationid="nacyot" creationdate="20140424T231012Z">
+        <seg>)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* A plist specifying VCS fetcher options.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005602Z" creationid="nacyot" creationdate="20140426T005602Z">
+        <seg>* VCS fetcher 옵션을 지정하는 plist</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* A string specifying minimum version.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005551Z" creationid="nacyot" creationdate="20140426T005551Z">
+        <seg>* 최소 버전을 지정하는 문자열</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Clojure projects have a `project.clj` file?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132832Z" creationid="nacyot" creationdate="20140425T132829Z">
+        <seg>* Clojure 프로젝트에는 `project.clj`가 있죠?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Does not have any dependencies
+* Does not have any tests
+* Does not care about consistency
+* Does not care about compiler warnings
+* Does not want to make it easy for contributors</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031936Z" creationid="nacyot" creationdate="20140425T133154Z">
+        <seg>* 의존 라이브러리가 없는 프로젝트
+* 테스트가 없는 프로젝트
+* 일관성에 게의치 않는 프로젝트
+* 컴파일러 경고에 게의치 않는 프로젝트
+* 사람들이 참여에 무관심한 프로젝트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Emacs Lisp projects have a `Cask` file?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132845Z" creationid="nacyot" creationdate="20140425T132845Z">
+        <seg>* Emacs Lisp 프로젝트에는 `Cask` 파일이 있죠?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Node.js projects have a `package.json` file?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132819Z" creationid="nacyot" creationdate="20140425T132819Z">
+        <seg>* Node.js 프로젝트에는 `package.json`이 있죠?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Ruby projects have a `gemspec` file?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132807Z" creationid="nacyot" creationdate="20140425T132807Z">
+        <seg>* Ruby 프로젝트에는 `Gemfile`이 있죠?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Some Emacs Lisp projects does not have a `Cask` file?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T152035Z" creationid="nacyot" creationdate="20140425T152035Z">
+        <seg>* Emacs Lisp 프로젝트 중에는 `Cask` 파일이 없는 경우도 있죠?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Some Emacs Lisp projects have a `Cask` file?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132924Z" creationid="nacyot" creationdate="20140425T132924Z">
+        <seg>* Emacs Lisp 프로젝트 중에는 `Cask` 파일이 있는 경우도 있죠?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [cask-setup](#cask-setup) `(project-path)`
+* [cask-initialize](#cask-initialize) `(&amp;optional project-path)`
+* [cask-update](#cask-update) `(bundle)`
+* [cask-outdated](#cask-outdated) `(bundle)`
+* [cask-install](#cask-install) `(bundle)`
+* [cask-caskify](#cask-caskify) `(bundle &amp;optional dev-mode)`
+* [cask-package-name](#cask-package-name) `(bundle)`
+* [cask-package-version](#cask-package-version) `(bundle)`
+* [cask-package-description](#cask-package-description) `(bundle)`
+* [cask-version](#cask-version) `()`
+* [cask-load-path](#cask-load-path) `(bundle)`
+* [cask-exec-path](#cask-exec-path) `(bundle)`
+* [cask-elpa-path](#cask-elpa-path) `(bundle)`
+* [cask-runtime-dependencies](#cask-runtime-dependencies) `(bundle &amp;optional deep)`
+* [cask-development-dependencies](#cask-development-dependencies) `(bundle &amp;optional deep)`
+* [cask-dependencies](#cask-dependencies) `(bundle &amp;optional deep)`
+* [cask-installed-dependencies](#cask-installed-dependencies) `(bundle &amp;optional deep)`
+* [cask-has-dependency](#cask-has-dependency) `(bundle name)`
+* [cask-find-dependency](#cask-find-dependency) `(bundle name)`
+* [cask-define-package-string](#cask-define-package-string) `(bundle)`
+* [cask-define-package-file](#cask-define-package-file) `(bundle)`
+* [cask-dependency-path](#cask-dependency-path) `(bundle name)`
+* [cask-path](#cask-path) `(bundle)`
+* [cask-file](#cask-file) `(bundle)`
+* [cask-files](#cask-files) `(bundle)`
+* [cask-add-dependency](#cask-add-dependency) `(bundle name &amp;rest args)`
+* [cask-add-source](#cask-add-source) `(bundle name-or-alias &amp;optional url)`
+* [cask-remove-source](#cask-remove-source) `(bundle name)`
+* [cask-build](#cask-build) `(bundle)`
+* [cask-clean-elc](#cask-clean-elc) `(bundle)`
+* [cask-links](#cask-links) `(bundle)`
+* [cask-link](#cask-link) `(bundle name source)`
+* [cask-link-delete](#cask-link-delete) `(bundle name)`
+* [cask-linked-p](#cask-linked-p) `(bundle name)`
+* [cask-package](#cask-package) `(bundle &amp;optional target-dir)`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T230948Z" creationid="nacyot" creationdate="20140424T230948Z">
+        <seg>* [cask-setup](#cask-setup) `(project-path)`
+* [cask-initialize](#cask-initialize) `(&amp;optional project-path)`
+* [cask-update](#cask-update) `(bundle)`
+* [cask-outdated](#cask-outdated) `(bundle)`
+* [cask-install](#cask-install) `(bundle)`
+* [cask-caskify](#cask-caskify) `(bundle &amp;optional dev-mode)`
+* [cask-package-name](#cask-package-name) `(bundle)`
+* [cask-package-version](#cask-package-version) `(bundle)`
+* [cask-package-description](#cask-package-description) `(bundle)`
+* [cask-version](#cask-version) `()`
+* [cask-load-path](#cask-load-path) `(bundle)`
+* [cask-exec-path](#cask-exec-path) `(bundle)`
+* [cask-elpa-path](#cask-elpa-path) `(bundle)`
+* [cask-runtime-dependencies](#cask-runtime-dependencies) `(bundle &amp;optional deep)`
+* [cask-development-dependencies](#cask-development-dependencies) `(bundle &amp;optional deep)`
+* [cask-dependencies](#cask-dependencies) `(bundle &amp;optional deep)`
+* [cask-installed-dependencies](#cask-installed-dependencies) `(bundle &amp;optional deep)`
+* [cask-has-dependency](#cask-has-dependency) `(bundle name)`
+* [cask-find-dependency](#cask-find-dependency) `(bundle name)`
+* [cask-define-package-string](#cask-define-package-string) `(bundle)`
+* [cask-define-package-file](#cask-define-package-file) `(bundle)`
+* [cask-dependency-path](#cask-dependency-path) `(bundle name)`
+* [cask-path](#cask-path) `(bundle)`
+* [cask-file](#cask-file) `(bundle)`
+* [cask-files](#cask-files) `(bundle)`
+* [cask-add-dependency](#cask-add-dependency) `(bundle name &amp;rest args)`
+* [cask-add-source](#cask-add-source) `(bundle name-or-alias &amp;optional url)`
+* [cask-remove-source](#cask-remove-source) `(bundle name)`
+* [cask-build](#cask-build) `(bundle)`
+* [cask-clean-elc](#cask-clean-elc) `(bundle)`
+* [cask-links](#cask-links) `(bundle)`
+* [cask-link](#cask-link) `(bundle name source)`
+* [cask-link-delete](#cask-link-delete) `(bundle name)`
+* [cask-linked-p](#cask-linked-p) `(bundle name)`
+* [cask-package](#cask-package) `(bundle &amp;optional target-dir)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [exec](#exec)
+* [help, --help, -h](#help)
+* [info](#info)
+* [init](#init)
+* [install](#install)
+* [list](#list)
+* [load-path](#load-path)
+* [outdated](#outdated)
+* [pkg-file](#pkg-file)
+* [package-directory](#package-directory)
+* [path](#path)
+* [update](#update)
+* [upgrade-cask](#upgrade-cask)
+* [version](#version)
+* [files](#files)
+* [build](#build)
+* [clean-elc](#clean-elc)
+* [link](#link)
+* [package](#package)
+* [--version](#option-version)
+* [--dev](#option-dev)
+* [--debug](#option-debug)
+* [--path](#option-path)
+* [--verbose](#option-verbose)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135325Z" creationid="nacyot" creationdate="20140425T135325Z">
+        <seg>* [exec](#exec)
+* [help, --help, -h](#help)
+* [info](#info)
+* [init](#init)
+* [install](#install)
+* [list](#list)
+* [load-path](#load-path)
+* [outdated](#outdated)
+* [pkg-file](#pkg-file)
+* [package-directory](#package-directory)
+* [path](#path)
+* [update](#update)
+* [upgrade-cask](#upgrade-cask)
+* [version](#version)
+* [files](#files)
+* [build](#build)
+* [clean-elc](#clean-elc)
+* [link](#link)
+* [package](#package)
+* [--version](#option-version)
+* [--dev](#option-dev)
+* [--debug](#option-debug)
+* [--path](#option-path)
+* [--verbose](#option-verbose)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [rejeep/emacs](https://github.com/rejeep/emacs)
+* [prodigy](https://github.com/rejeep/prodigy.el)
+* [emacs-jedi](https://github.com/tkf/emacs-jedi)
+* [flycheck](https://github.com/lunaryorn/flycheck)
+* [projectile](https://github.com/bbatsov/projectile)
+* [smartparens](https://github.com/Fuco1/smartparens)
+* [ecukes](https://github.com/ecukes/ecukes)
+* [expand-region](https://github.com/magnars/expand-region.el)
+* [and more...](https://github.com/search?l=Emacs+Lisp&amp;q=cask&amp;ref=opensearch&amp;type=Code)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232255Z" creationid="nacyot" creationdate="20140424T232255Z">
+        <seg>* [rejeep/emacs](https://github.com/rejeep/emacs)
+* [prodigy](https://github.com/rejeep/prodigy.el)
+* [emacs-jedi](https://github.com/tkf/emacs-jedi)
+* [flycheck](https://github.com/lunaryorn/flycheck)
+* [projectile](https://github.com/bbatsov/projectile)
+* [smartparens](https://github.com/Fuco1/smartparens)
+* [ecukes](https://github.com/ecukes/ecukes)
+* [expand-region](https://github.com/magnars/expand-region.el)
+* [and more...](https://github.com/search?l=Emacs+Lisp&amp;q=cask&amp;ref=opensearch&amp;type=Code)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [source](#source)
+* [package](#package)
+* [package-file](#package-file)
+* [depends-on](#depends-on)
+* [development](#development)
+* [files](#files)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232132Z" creationid="nacyot" creationdate="20140424T232132Z">
+        <seg>* [source](#source)
+* [package](#package)
+* [package-file](#package-file)
+* [depends-on](#depends-on)
+* [development](#development)
+* [files](#files)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* `:branch` - Fetcher branch to checkout.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005638Z" creationid="nacyot" creationdate="20140426T005638Z">
+        <seg>* `:branch` - 체크아웃 하고자 하는 Fetcher 브랜치</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* `:files` - Only include files matching this pattern.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005707Z" creationid="nacyot" creationdate="20140426T005707Z">
+        <seg>* `:files` - 가져올 파일의 패턴(이 패턴에 일치하는 파일만 가져옵니다)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* `:ref` - Fetcher ref to checkout.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005625Z" creationid="nacyot" creationdate="20140426T005625Z">
+        <seg>* `:ref` - 체크아웃하고자 하는 Fetcher ref.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* `gnu` (&lt;http://elpa.gnu.org/packages/&gt;)
+ * `melpa` (&lt;http://melpa.milkbox.net/packages/&gt;)
+ * `marmalade` (&lt;http://marmalade-repo.org/packages/&gt;)
+ * `SC` (&lt;http://joseito.republika.pl/sunrise-commander/&gt;)
+ * `org` (&lt;http://orgmode.org/elpa/&gt;)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232147Z" creationid="nacyot" creationdate="20140424T232147Z">
+        <seg>* `gnu` (&lt;http://elpa.gnu.org/packages/&gt;)
+ * `melpa` (&lt;http://melpa.milkbox.net/packages/&gt;)
+ * `marmalade` (&lt;http://marmalade-repo.org/packages/&gt;)
+ * `SC` (&lt;http://joseito.republika.pl/sunrise-commander/&gt;)
+ * `org` (&lt;http://orgmode.org/elpa/&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T230946Z" creationid="nacyot" creationdate="20140424T230946Z">
+        <seg>---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---
+title: API
+layout: default
+permalink: api.html
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T230945Z" creationid="nacyot" creationdate="20140424T230945Z">
+        <seg>---
+title: API
+layout: default
+permalink: api.html
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---
+title: DSL
+layout: default
+permalink: dsl.html
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232131Z" creationid="nacyot" creationdate="20140424T232131Z">
+        <seg>---
+title: DSL
+layout: default
+permalink: dsl.html
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---
+title: Development
+layout: default
+permalink: development.html
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232349Z" creationid="nacyot" creationdate="20140424T232349Z">
+        <seg>---
+title: 개발
+layout: default
+permalink: development.html
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---
+title: Examples
+layout: default
+permalink: examples.html
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232233Z" creationid="nacyot" creationdate="20140424T232221Z">
+        <seg>---
+title: 예제
+layout: default
+permalink: examples.html
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---
+title: Installation
+layout: default
+permalink: installation.html
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134929Z" creationid="nacyot" creationdate="20140425T134929Z">
+        <seg>---
+title: 설치
+layout: default
+permalink: installation.html
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---
+title: Tools
+layout: default
+permalink: tools.html
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232305Z" creationid="nacyot" creationdate="20140424T232305Z">
+        <seg>---
+title: 도구
+layout: default
+permalink: tools.html
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---
+title: Troubleshoot
+layout: default
+permalink: troubleshoot.html
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120250Z" creationid="nacyot" creationdate="20140425T140035Z">
+        <seg>---
+title: 문제 해결하기
+layout: default
+permalink: troubleshoot.html
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---
+title: Usage
+layout: default
+permalink: usage.html
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120243Z" creationid="nacyot" creationdate="20140425T135230Z">
+        <seg>---
+title: 사용법
+layout: default
+permalink: usage.html
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---
+title: Why Cask?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120819Z" creationid="nacyot" creationdate="20140425T132520Z">
+        <seg>---title: 왜 Cask인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>--- title: Cask layout: default permalink: index.html ---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120543Z" creationid="nacyot" creationdate="20140427T120543Z">
+        <seg>--- title: Cask layout: default permalink: index.html ---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>/</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120454Z" creationid="nacyot" creationdate="20140427T120453Z">
+        <seg>//</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>/css/bootstrap.min.css</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120452Z" creationid="nacyot" creationdate="20140427T120452Z">
+        <seg>/css/bootstrap.min.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>/css/cask.css</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120452Z" creationid="nacyot" creationdate="20140427T120452Z">
+        <seg>/css/cask.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>/css/syntax.css</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120452Z" creationid="nacyot" creationdate="20140427T120452Z">
+        <seg>/css/syntax.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>/img/cask-small.png</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120453Z" creationid="nacyot" creationdate="20140427T120453Z">
+        <seg>/img/cask-small.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>:)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120810Z" creationid="nacyot" creationdate="20140427T120810Z">
+        <seg>:)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>A bundle is an object that describes the current Cask
+project.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T105016Z" creationid="nacyot" creationdate="20140426T004739Z">
+        <seg>번들이란 현재 Cask 프로젝트를 의미합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Actually, let me rephrase the last statement.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031808Z" creationid="nacyot" creationdate="20140425T132855Z">
+        <seg>마지막 문장을 조금 다듬어 보죠.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Add ELPA source.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231858Z" creationid="nacyot" creationdate="20140424T231858Z">
+        <seg>ELPA 소스를 추가합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Add a dependency.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232204Z" creationid="nacyot" creationdate="20140424T232204Z">
+        <seg>의존 라이브러리를 추가합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Add a package mirror.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232141Z" creationid="nacyot" creationdate="20140424T232141Z">
+        <seg>패키지 미러를 추가합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Add dependency with `name`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231824Z" creationid="nacyot" creationdate="20140424T231824Z">
+        <seg>`name`이라는 이름을 가진 의존 라이브러리를 추가합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>All it is, is a single file that
+declares a list of dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032635Z" creationid="nacyot" creationdate="20140425T152831Z">
+        <seg>Cask를 통해 모든 의존 라이브러리를 하나의 파일에 정의하고 관리할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>And OSX users can install it via Homebrew:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032725Z" creationid="nacyot" creationdate="20140425T135132Z">
+        <seg>Mac OSX 사용자라면 Homebrew로 설치할 수도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>And to run all tests:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132251Z" creationid="nacyot" creationdate="20140425T132251Z">
+        <seg>다음으로 모든 테스트를 실행합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>As you will see, almost every API function takes a `bundle` as first
+argument.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T004719Z" creationid="nacyot" creationdate="20140426T004719Z">
+        <seg>아래에서 보이듯이 모든 함수는 첫번째 인자로 `bundle`을 받습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Available aliases:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005928Z" creationid="nacyot" creationdate="20140426T005928Z">
+        <seg>사용가능한 미러의 약어는 아래와 같습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Be sure to!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132206Z" creationid="nacyot" creationdate="20140425T132135Z">
+        <seg>잊지마세요!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Build a package (`.el` or `.tar`) and place in the `dist` (or
+specified) directory.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T104821Z" creationid="nacyot" creationdate="20140425T154551Z">
+        <seg>`.el`이나 `.tar`로 된 패키지를 생성하고 `dist` 디렉토리에 복사합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>But it's even worse.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032543Z" creationid="nacyot" creationdate="20140425T152716Z">
+        <seg>상황은 더 나쁩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>But there's one thing still missing and that is consistency.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T133442Z" creationid="nacyot" creationdate="20140425T133408Z">
+        <seg>하지만 이러한 발전에도 불구하고 일관성에 대해서만은 여전히 발전이 없었습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Byte compile all package files.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135602Z" creationid="nacyot" creationdate="20140425T135602Z">
+        <seg>모든 패키지 파일을 바이트 컴파일 합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Byte compile project files.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231919Z" creationid="nacyot" creationdate="20140424T231919Z">
+        <seg>프로젝트 파일을 바이트 컴파일합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Can you imagine how
+much work it would require to keep all of those up to date?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032524Z" creationid="nacyot" creationdate="20140425T152809Z">
+        <seg>이 정도 개수의 패키지들을 서브모듈 기능으로 최신버전으로 관리한다고 하면, 상상이나 가시나요?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Cask</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120544Z" creationid="nacyot" creationdate="20140427T120544Z">
+        <seg>Cask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Cask - &lt;s0&gt; Project management for Emacs package development &lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120528Z" creationid="nacyot" creationdate="20140427T120527Z">
+        <seg>Cask - &lt;s0&gt; 이맥스(Emacs) 패키지 개발을 위한 의존성 관리 도구</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Cask can also be used to manage dependencies for your local Emacs configuration.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120725Z" creationid="nacyot" creationdate="20140427T120725Z">
+        <seg>뿐만 아니라 Cask는 이맥스의 설정 파일을 체계적으로 관리하는 데도 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Cask has an extensive API, which is briefly described in this
+document.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154807Z" creationid="nacyot" creationdate="20140425T154807Z">
+        <seg>이 문서는 Cask 확장 API를 간략히 설명합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Cask is a project management tool for Emacs that helps automate the package development cycle; development, dependencies, testing, building, packaging and more.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120702Z" creationid="nacyot" creationdate="20140427T120702Z">
+        <seg>Cask는 이맥스(Emacs)를 위한 패키지 관리 도구입니다. Cask를 통해서 개발, 의존성 관리, 테스트, 빌드, 패키징와 같은 개발 과정을 자동화할수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Cask tries to hide as much output as possible by default.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T104940Z" creationid="nacyot" creationdate="20140425T135822Z">
+        <seg>Cask는 출력사항이 많을 때 기본적으로 이를 최대한 숨겨줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Cask's commands and options are briefly described below.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T153938Z" creationid="nacyot" creationdate="20140425T153938Z">
+        <seg>아래에서는 Cask의 명령과 옵션에 대해서 간략히 소개합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Change default directory to path before executing command.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135742Z" creationid="nacyot" creationdate="20140425T135742Z">
+        <seg>명령어를 실행하기 전에 작업 디렉토리를 path 옵션에 지정한 곳으로 변경합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create `Cask`-file.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005134Z" creationid="nacyot" creationdate="20140426T005134Z">
+        <seg>`Cask` 파일을 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create a `-pkg.el` file (see
+&lt;http://www.gnu.org/software/emacs/manual/html_node/elisp/Multi_002dfile-Packages.html#Multi_002dfile-Packages&gt;).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135525Z" creationid="nacyot" creationdate="20140425T135525Z">
+        <seg>`-pkg.el` 파일을 생성합니다. (
+&lt;http://www.gnu.org/software/emacs/manual/html_node/elisp/Multi_002dfile-Packages.html#Multi_002dfile-Packages&gt;를 참조하세요).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create a `bundle` object for `project-path`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T004831Z" creationid="nacyot" creationdate="20140426T004831Z">
+        <seg>`project-path`에  `bundle` 객체를 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create an ELPA package of this project.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232127Z" creationid="nacyot" creationdate="20140424T232114Z">
+        <seg>현재 프로젝트를 ELPA 패키지로 만듭니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create link with `name` to `source` path.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005730Z" creationid="nacyot" creationdate="20140426T005730Z">
+        <seg>`name`에서 `source` 경로를 향하는 링크를 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create new `Cask`-file.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154015Z" creationid="nacyot" creationdate="20140425T154015Z">
+        <seg>새로운 `Cask` 파일을 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Define this package (used only for package development).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T010000Z" creationid="nacyot" creationdate="20140426T010000Z">
+        <seg>패키지를 정의합니다.(패키지 개발에서만 사용됩니다)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Delete link with `name`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005736Z" creationid="nacyot" creationdate="20140426T005736Z">
+        <seg>`name` 이름을 가진 링크를 삭제합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Development related discussion is done
+in a Google group &lt;https://groups.google.com/forum/#!forum/cask-dev&gt;.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132150Z" creationid="nacyot" creationdate="20140425T132021Z">
+        <seg>개발과 관련된 논의는 구글 그룹 &lt;https://groups.google.com/forum/#!forum/cask-dev&gt;을 통해서 이루어집니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Do you know why:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031743Z" creationid="nacyot" creationdate="20140425T132750Z">
+        <seg>여러분은 이미 답을 알고있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Don't forget to add Cask's bin to your `PATH`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032736Z" creationid="nacyot" creationdate="20140425T135154Z">
+        <seg>설치가 되면 Cask를 `PATH` 환경변수에 추가하세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>El-get did a good job once, but
+is nowadays obsolete.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134128Z" creationid="nacyot" creationdate="20140425T134128Z">
+        <seg>El-get은 훌륭한 도구였지만 지금은 오래된 도구입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>El-get is popular because is was created when there were no other good
+alternatives.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032320Z" creationid="nacyot" creationdate="20140425T134019Z">
+        <seg>El-get이 나왔을 때는 다른 대안이 없었기에 금방 유명해질 수 있었습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Emacs package development has improved drastically during the last
+couple of years.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T133218Z" creationid="nacyot" creationdate="20140425T133218Z">
+        <seg>Emacs 패키지 개발은 지난 몇년간 놀라울 정도로 발전했습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Enable debug information.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135717Z" creationid="nacyot" creationdate="20140425T135717Z">
+        <seg>디버그 정보를 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Example:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232143Z" creationid="nacyot" creationdate="20140424T232143Z">
+        <seg>예제:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Execute command with correct `PATH` (see [path](#path)) and
+`EMACSLOADPATH` (see [load-path](#load-path)) set up.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T010320Z" creationid="nacyot" creationdate="20140426T010314Z">
+        <seg>exec 명령어를 사용할 때는 `PATH`([path](#path) 참조)와 `EMACSLOADPATH`([load-path](#load-path) 환경변수를 올바르게 설정해야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>First, make sure you have the latest Cask version (Run `cask
+--version` to find out what version you are using).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T151703Z" creationid="nacyot" creationdate="20140425T151703Z">
+        <seg>먼저 Cask가 최신 버전인지 확인합니다.(`cask --version` 명령어로 현재 버전을 확인할 수 있습니다)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For Emacs Lisp projects using Cask, this is true as well.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032142Z" creationid="nacyot" creationdate="20140425T133818Z">
+        <seg>Cask를 사용한다면 Emacs Lisp 프로젝트도 그렇게 됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example if this project depends on `ecukes`, this command will
+include `.cask/EMACS-VERSION/elpa/ecukes-VERSION/bin`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031410Z" creationid="nacyot" creationdate="20140427T031410Z">
+        <seg>예를 들어 프로젝트가 `ecukes`에 의존하고 있다면 이 명령어는 `.cask/EMACS-VERSION/elpa/ecukes-VERSION/bin`를 포함합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For full
+documentation, use `cask help`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T153947Z" creationid="nacyot" creationdate="20140425T153947Z">
+        <seg>전체 문서는 `cask help` 명령어를 통해서 확인해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For full documentation of each function, read the function
+doc-string.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T004527Z" creationid="nacyot" creationdate="20140426T004527Z">
+        <seg>각 함수에 대한 자세한 설명은 doc-string을 읽어주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>From single Emacs Lisp files uploaded to the Emacs
+Wiki, to high quality packages, using VCS, that are tested,
+installable via a package manager and more.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032033Z" creationid="nacyot" creationdate="20140425T133340Z">
+        <seg>예전에는 Emacs Lisp 파일 하나를 Emacs 위키에 업로드했습니다. 이런 상황에서 벗어나 이제는 VCS에 잘 완성된 패키지들이 올라고, 테스트도 하고, 나아가 패키지 매니저로 설치할 수 있는 등 많은 변화가 있었습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Handle package links.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154524Z" creationid="nacyot" creationdate="20140425T154524Z">
+        <seg>패키지 링크를 관리합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Here are a few examples of how a `Cask`-file might look like.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T114325Z" creationid="nacyot" creationdate="20140426T010046Z">
+        <seg>아래는 `Cask`파일 예제입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>I did something like this in my configuration once as well, but I no
+longer have to, because Cask exists.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032447Z" creationid="nacyot" creationdate="20140425T152614Z">
+        <seg>저도 한 때는 이러한 방식을 사용했습니다. 이제는 Cask가 있기 때문에 이런 방식은 사용하지 않습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>I have over 60 packages in my Emacs configuration.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032456Z" creationid="nacyot" creationdate="20140425T134901Z">
+        <seg>제 Emacs 설정 파일에는 60개 이상의 패키지가 정의되어 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>I shouldn't have to explain why.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032615Z" creationid="nacyot" creationdate="20140425T152753Z">
+        <seg>제가 굳이 설명할 필요 없겠죠?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>I will argue that some Emacs Lisp projects may not benefit directly
+from using Cask.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031843Z" creationid="nacyot" creationdate="20140425T152127Z">
+        <seg>일부 Emacs Lisp 프로젝트는 Cask가 굳이 필요하지 않을 수도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If all passes, send us a
+[pull request](https://github.com/cask/cask/pulls) with the
+changes.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132320Z" creationid="nacyot" creationdate="20140425T132258Z">
+        <seg>모든 테스트가 통과되면 변경사항을 [풀리퀘스트](https://github.com/cask/cask/pulls)로 보내주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If no such branch exist, target the `master`
+branch.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132453Z" creationid="nacyot" creationdate="20140425T132453Z">
+        <seg>만약 해당하는 브랜치가 없으면 `master` 브랜치로 풀리퀘스트를 보내주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If not for you, do it for
+other Emacs Lisp developers.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032210Z" creationid="nacyot" creationdate="20140425T133937Z">
+        <seg>나뿐만 아니라 다른 Emacs Lisp 개발자들을 위해서 사용하시기 바랍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If the error still occurs, try removing Cask's dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T151804Z" creationid="nacyot" creationdate="20140425T151804Z">
+        <seg>에러가 계속 발생한다면 Cask의 의존 라이브러리를 삭제합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If the project is for package development, use
+the `--dev` option.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154036Z" creationid="nacyot" creationdate="20140425T154036Z">
+        <seg>패키지 개발 용도로 사용한다면 `--dev` 옵션을 사용해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you are using Cask for your Emacs configuration, add this to your
+`.emacs` file:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032846Z" creationid="nacyot" creationdate="20140425T153407Z">
+        <seg>Emacs 설정을 위해 Cask를 사용하고자 할 때는 아래 내용을 `.emacs`에 추가해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you find a new project and want
+to find out what dependencies it has, you will know exactly where to
+look.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032117Z" creationid="nacyot" creationdate="20140425T133732Z">
+        <seg>새로운 프로젝트를 찾아 이 프로젝트가 의존하고 있는 라이브러리를 확인하고자 할 때 어디에 이러한 정보가 있는 지는 항상 정해져있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you look at the majority of Emacs configurations out there, you
+will see a few different types setups.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032256Z" creationid="nacyot" creationdate="20140425T152544Z">
+        <seg>여러 Emacs 설정을 보신 적이 있다면, 몇 가지 자주 사용되는 설정 방법이 있다는 걸 알고 있겠죠.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you run a Cask command and get an error, there are a few things you
+can try yourself.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T151446Z" creationid="nacyot" creationdate="20140425T151446Z">
+        <seg>Cask 실행 중에 에러가 발생한다면 몇 가지 대처법이 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you want to find the test for a specific feature, you know
+exactly where to look.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032135Z" creationid="nacyot" creationdate="20140425T133757Z">
+        <seg>특정 기능의 테스트를 찾고자 한 데도, 어디에 있는 지 뻔히 예상 가능합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Implement the features and don't forget to test it.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132202Z" creationid="nacyot" creationdate="20140425T132141Z">
+        <seg>새로운 기능을 추가할 때는 반드시 테스트도 추가해주시기 바랍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In those environments, projects are structured, tested, packaged,
+compiled, released in the same way.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032059Z" creationid="nacyot" creationdate="20140425T133651Z">
+        <seg>이러한 환경 위에서 프로젝트는 일관성 있게 구성되며 일관성 있게 테스트되고 일관성 있게 패키징되고 일관성 있게 컴파일되며 일관성 있게 배포됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Install dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231100Z" creationid="nacyot" creationdate="20140424T231100Z">
+        <seg>의존 라이브러리를 설치합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It usually looks something like this:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134228Z" creationid="nacyot" creationdate="20140425T134228Z">
+        <seg>`package.el`은 보통 다음과 같이 사용됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Last argument `args`, can be:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005541Z" creationid="nacyot" creationdate="20140426T005541Z">
+        <seg>마지막 인자인 `args`에는 아래와 같은 것들이 들어갈 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Let's keep to the standard way of doing things!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032422Z" creationid="nacyot" creationdate="20140425T134201Z">
+        <seg>표준적인 방법을 사용하시길 바랍니다!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Like `cask-setup`, but also initializes all dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005006Z" creationid="nacyot" creationdate="20140426T005006Z">
+        <seg>`cask-setup`와 비슷한 기능을 하지만 추가적으로 모든 의존 라이브러리를 초기화합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>List all runtime and development dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154111Z" creationid="nacyot" creationdate="20140425T154111Z">
+        <seg>모든 런타임과 개발에 의존된 라이브러리 목록을 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>No, let's try that again.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031814Z" creationid="nacyot" creationdate="20140425T132930Z">
+        <seg>아뇨. 한 번 더.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Note that
+*every* Ruby project has a `gemspec` file, *every* Node.js project has
+a `package.json` file and *every* Clojure project has a `project.clj`
+file.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032045Z" creationid="nacyot" creationdate="20140425T133541Z">
+        <seg>*모든* Ruby 프로젝트에는 `gemspec` 파일이 있고, *모든* Node.js 프로젝트에는 `package.json` 파일이 있고, *모든* Clojure 프로젝트에는 `project.clj` 파일이 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Note that we usually work on a WIP-branch, which is the
+branch the pull request should target.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132420Z" creationid="nacyot" creationdate="20140425T132420Z">
+        <seg>개발은 주로 WIP 브랜치에서 진행되고 있으며 풀리퀘스트는 이 브랜치로 보내주셔야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now there are and `package.el` is the standard solution,
+choosen by the Emacs core developers.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032411Z" creationid="nacyot" creationdate="20140425T134054Z">
+        <seg>지금은 대안은 물론 Emacs 개발팀이 선택한 `package.el`이라는 표준적인 도구가 있습니다</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Perform action in development mode.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135637Z" creationid="nacyot" creationdate="20140425T135637Z">
+        <seg>명령어를 개발 모드(development mode)로 실행합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Please run any command with the options
+`--verbose` and `--debug` to give us as much information as possible.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T114524Z" creationid="nacyot" creationdate="20140425T151955Z">
+        <seg>`--verbose`나 `--debug` 옵션을 사용해 나오는 출력 결과를 함께 알려주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Print Cask's version.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135620Z" creationid="nacyot" creationdate="20140425T135620Z">
+        <seg>Cask의 버전을 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Print `EMACSLOADPATH`-friendly string with path to all dependencies to
+this project.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T114910Z" creationid="nacyot" creationdate="20140425T154220Z">
+        <seg>현재 프로젝트가 의존하고 있는 모든 라이브러리들의 경로를 `EMACSLOADPATH` 환경변수에서 사용가능한 문자열로 출력해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Print `PATH` and prepend path to all directories called `bin` in this
+projects dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031442Z" creationid="nacyot" creationdate="20140427T031442Z">
+        <seg>`PATH`를 출력하고 의존 라이브러리의 모든 `bin` 디렉토리를 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Print list of package files.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154440Z" creationid="nacyot" creationdate="20140425T154440Z">
+        <seg>패키지 파일 리스트를 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Print path to package directory, that is the path to the directory
+where all dependencies are installed (`.cask/EMACS-VERSION/elpa`).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154410Z" creationid="nacyot" creationdate="20140425T154410Z">
+        <seg>모든 의존 라이브러리가 설치되는 디렉토리 경로를 출력합니다.(`.cask/EMACS-VERSION/elpa`)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Print version of this package.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135546Z" creationid="nacyot" creationdate="20140425T135546Z">
+        <seg>패키지의 버전을 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Put package in directory
+called `dist` or `target-dir` if specified.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005859Z" creationid="nacyot" creationdate="20140426T005859Z">
+        <seg>패키지를 `dist` 디렉토리로 옮기거나 `target-dir`가 지정되어 있으면 `target-dir`로 옮깁니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Remove ELPA source.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231908Z" creationid="nacyot" creationdate="20140424T231908Z">
+        <seg>ELPA 소스를 삭제합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Remove byte compiled files generated from the `build` command.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154514Z" creationid="nacyot" creationdate="20140425T154514Z">
+        <seg>`build` 명령어로 만들어진 바이트 컴파일 파일들을 삭제합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Remove byte compiled files.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231949Z" creationid="nacyot" creationdate="20140424T231949Z">
+        <seg>바이트 컴파일된 파일을 삭제합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Remove that
+directory and try again.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T151837Z" creationid="nacyot" creationdate="20140425T151837Z">
+        <seg>디렉토리를 삭제하고 명령어를 다시 실행해봅니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return Cask's version.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231140Z" creationid="nacyot" creationdate="20140424T231140Z">
+        <seg>Cask 버전을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return `define-package` string used for `-pkg.el` files.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031507Z" creationid="nacyot" creationdate="20140427T031507Z">
+        <seg>`-pkg.el`에서 사용하는 `define-package` 문자열을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return `exec-path` including dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005218Z" creationid="nacyot" creationdate="20140426T005218Z">
+        <seg>의존 라이브러리가 있는 `exec-path`를 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return `load-path` including dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005159Z" creationid="nacyot" creationdate="20140426T005153Z">
+        <seg>의존 라이브러리가 있는 `load-path`를 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return a list of all outdated dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231050Z" creationid="nacyot" creationdate="20140424T231047Z">
+        <seg>최신 버전이 아닌 모든 의존 라이브러리의 목록을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return dependency with `name`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005456Z" creationid="nacyot" creationdate="20140426T005456Z">
+        <seg>`name`으로 검색된 의존 라이브러리를 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return list of development dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005242Z" creationid="nacyot" creationdate="20140426T005242Z">
+        <seg>개발 의존 라이브러리의 목록을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return list of installed dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005438Z" creationid="nacyot" creationdate="20140426T005428Z">
+        <seg>현재 설치된 의존 라이브러리 목록을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return list of links.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005721Z" creationid="nacyot" creationdate="20140426T005721Z">
+        <seg>링크 목록을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return list of project files.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005525Z" creationid="nacyot" creationdate="20140426T005525Z">
+        <seg>프로젝트 파일들의 목록을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return list of runtime and development dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005301Z" creationid="nacyot" creationdate="20140426T005301Z">
+        <seg>런타임 의존 라이브러리와 개발 의존 라이브러리 전체 목록을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return list of runtime dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005233Z" creationid="nacyot" creationdate="20140426T005233Z">
+        <seg>런타임 의존 라이브러리 목록을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return package description.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231131Z" creationid="nacyot" creationdate="20140424T231131Z">
+        <seg>패키지 설명을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return package name.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231114Z" creationid="nacyot" creationdate="20140424T231114Z">
+        <seg>패키지 이름을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return package version.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231124Z" creationid="nacyot" creationdate="20140424T231124Z">
+        <seg>패키지 버전을 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return path to `-pkg.el` file.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005514Z" creationid="nacyot" creationdate="20140426T005514Z">
+        <seg>`-pkg.el` 파일의 경로를 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return path to dependency with `name`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231732Z" creationid="nacyot" creationdate="20140424T231732Z">
+        <seg>`name`이라는 이름을 가진 의존 라이브러리의 경로를 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return path to elpa directory.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231203Z" creationid="nacyot" creationdate="20140424T231203Z">
+        <seg>elpa 디렉토리 경로를 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return path to project `Cask`-file.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231801Z" creationid="nacyot" creationdate="20140424T231801Z">
+        <seg>`Cask`-file의 경로를 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return path to project root.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231743Z" creationid="nacyot" creationdate="20140424T231743Z">
+        <seg>프로젝트 루트 디렉토리 경로를 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return true if link with `name` exist, false otherwise.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005757Z" creationid="nacyot" creationdate="20140426T005757Z">
+        <seg>`name` 이름을 가진 링크가 있으면 true를 리턴하고, 그렇지 않으면 false를 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Return true if project has dependency with `name`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231258Z" creationid="nacyot" creationdate="20140424T231258Z">
+        <seg>프로젝트가 `name`이라는 라이브러리에 의존성이 있으면 true를 리턴합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Screenshot of Cask's own Cask-file.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120758Z" creationid="nacyot" creationdate="20140427T120758Z">
+        <seg>Cask의 Cask 파일을 찍은 스크린샷입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>See resp. command for that information.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154744Z" creationid="nacyot" creationdate="20140425T154744Z">
+        <seg>각각의 명령어 설명을 읽어주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Set scope to development.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T114238Z" creationid="nacyot" creationdate="20140427T031624Z">
+        <seg>의존 라이브러리를 개발 시에만 사용하도록 설정합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Show Cask usage information.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135349Z" creationid="nacyot" creationdate="20140425T135349Z">
+        <seg>Cask 사용법을 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Show information about the project, such as name, description and
+version.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154005Z" creationid="nacyot" creationdate="20140425T154005Z">
+        <seg>특정 프로젝트의 이름, 설명, 버전과 같은 정보를 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Show list of all outdated dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T104552Z" creationid="nacyot" creationdate="20140425T154309Z">
+        <seg>오래된 의존 라이브러리 리스트를 전부 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>So all in all, projects that are not worth using.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031946Z" creationid="nacyot" creationdate="20140425T152336Z">
+        <seg>하나 같이 사용하기 어려운 프로젝트들이죠.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>So, even if you feel that your Emacs Lisp project does not have direct
+benefit of using Cask, please do so any way.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032155Z" creationid="nacyot" creationdate="20140425T152441Z">
+        <seg>자신의 Emacs Lisp 프로젝트에 직접적인 필요가 없더라도 Cask는 필요합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>So, why should your Emacs Lisp project use Cask?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031732Z" creationid="nacyot" creationdate="20140425T132722Z">
+        <seg>자 그럼 왜 Emacs Lisp 프로젝트를 진행하는 데 Cask가 필요할까요?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Specify list of files that are included in this project.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031642Z" creationid="nacyot" creationdate="20140427T031642Z">
+        <seg>이 프로젝트에 포함되는 파일을 명시합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Start off by creating a file called `Cask` in the project root.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032808Z" creationid="nacyot" creationdate="20140425T153149Z">
+        <seg>우선 `Cask` 파일을 Emacs Lisp 프로젝트 루트에 만들어야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Still doesn't work?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T151842Z" creationid="nacyot" creationdate="20140425T151842Z">
+        <seg>여전히 작동하지 않는다면 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Storing dependencies as part of the
+repository is madness.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032604Z" creationid="nacyot" creationdate="20140425T152737Z">
+        <seg>의존 라이브러리들을 패키지 저장소에 포함 시켜놓는 건 사람을 미치게 만듭니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>That is dependencies that have
+a more recent version available for installation.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T104558Z" creationid="nacyot" creationdate="20140425T154327Z">
+        <seg>오래된 의존 라이브러리란 최신 버전으로 업그레이드 가능한 설치되어있는 라이브러리를 의미합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The [exec](#exec) command includes the output of this command
+automatically.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T115335Z" creationid="nacyot" creationdate="20140425T154246Z">
+        <seg>[exec](#exec) 명령어를 사용할 때 `load-path` 명령어에서 출력되는 경로들을 참조합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The `.elc` files are placed in the
+same directory as the source file.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154500Z" creationid="nacyot" creationdate="20140425T154500Z">
+        <seg>모든 `.elc` 파일은 source 디렉토리와 같은 곳에 위치합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The commands below execute using the `emacs` binary.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T010155Z" creationid="nacyot" creationdate="20140426T010155Z">
+        <seg>이 명령어는 `emacs`를 사용해서 실행됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The development of Cask is at Github
+&lt;https://github.com/cask/cask&gt;.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132144Z" creationid="nacyot" creationdate="20140425T132039Z">
+        <seg>Cask 개발은 Github에서 관리되고 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>These are some projects and configurations using Cask:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T010130Z" creationid="nacyot" creationdate="20140426T010130Z">
+        <seg>아래 프로젝트들은 의존 라이브러리를 Cask로 관리하고 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>These are the major ones:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032310Z" creationid="nacyot" creationdate="20140427T032310Z">
+        <seg>아래에서는 각각의 방법의 장단점을 살펴봅니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>They are
+located in `~/.emacs.d/.cask/EMACS-VERSION/bootstrap`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T151827Z" creationid="nacyot" creationdate="20140425T151827Z">
+        <seg>의존 라이브러리는 `~/.emacs.d/.cask/EMACS-VERSION/bootstrap`에 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>They are named
+`v{MAJOR}.{MINOR}-wip`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132439Z" creationid="nacyot" creationdate="20140425T132434Z">
+        <seg>브랜치 이름은 `v{MAJOR}.{MINOR}-wip` 형식을 따릅니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This document explains why you should use Cask, both in your Emacs
+configuration and for Emacs Lisp package development.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031712Z" creationid="nacyot" creationdate="20140425T132608Z">
+        <seg>이 문서는 Cask가 Emacs 설정을 관리하거나 Emacs Lisp 패키지 개발하는 데 왜 필요한 지 설명합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This has the same "keeping up to date" issue as the submodules
+approach.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T152708Z" creationid="nacyot" creationdate="20140425T152708Z">
+        <seg>이 방법은 서브모듈을 통한 접근과 마찬가지로 최신 버전을 유지하는 데 애로사항이 따릅니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is obviously what we want.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032624Z" creationid="nacyot" creationdate="20140425T152814Z">
+        <seg>우리가 원하던 건 바로 이겁니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is the default command, which installs all runtime and
+development dependencies specified in the `Cask`-file.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T033144Z" creationid="nacyot" creationdate="20140425T154141Z">
+        <seg>이는 Cask의 기본 명령어로 모든 런타임과 `Cask`에 정의된 개발에 의존된 라이브러를 전부 설치합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This means that if the command executed is an Emacs
+process, there's no hassle with the `load-path`, just require the
+dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T115503Z" creationid="nacyot" creationdate="20140427T031330Z">
+        <seg>즉 emacs와 관련된 명령어를 실행할 때 `load-path`에 대해 고민하지 않아도 됩니다. 의존 라이브러리 추가만 하면 해당하는 라이브러리의 경로는 cask가 알아서 추가해줍니다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This option does only take affect
+for some commands.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T104850Z" creationid="nacyot" creationdate="20140425T135652Z">
+        <seg>이 옵션이 모든 명령어에 적용되지는 않습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This will create a directory called `.cask`, containing all dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T153808Z" creationid="nacyot" creationdate="20140425T153808Z">
+        <seg>이 명령어는 `.cask` 디렉토리를 만들고 모든 의존 라이브러리를 설치합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Those are the projects that:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T031853Z" creationid="nacyot" creationdate="20140425T152132Z">
+        <seg>아래의 프로젝트들이 그런 예입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To automatically install Cask, run this command:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032701Z" creationid="nacyot" creationdate="20140425T135032Z">
+        <seg>아래 명령어를 실행하면 자동적으로 Cask가 설치됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To automatically keep the `Cask`-file up to date with what you
+install, check out &lt;https://github.com/rdallasgray/pallet&gt;.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T114418Z" creationid="nacyot" creationdate="20140425T140031Z">
+        <seg>`Cask`에 정의된 의존 라이브러리들을 항상 최신 상태로 유지하고자 한다면 &lt;https://github.com/rdallasgray/pallet&gt;을 참조해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To create a `bundle` object, use either `cask-setup` or
+`cask-initialize`, which are described below.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T004818Z" creationid="nacyot" creationdate="20140426T004818Z">
+        <seg>`bundle` 객체를 처음 만드려면 `cask-setup`이나 `cask-initialize` 함수를 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To install ZSH completion add the following to your `~/.zshrc`:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T114410Z" creationid="nacyot" creationdate="20140425T135944Z">
+        <seg>ZSH에서 cask 명령어의 자동 완성을 사용하려면 아래 줄을 `~/.zshrc`에 추가해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To install all dependencies, run:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T153753Z" creationid="nacyot" creationdate="20140425T135321Z">
+        <seg>모든 의존 라이브러리를 설치하려면 아래 명령어를 실행하세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To run the integration tests:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132240Z" creationid="nacyot" creationdate="20140425T132240Z">
+        <seg>통합 테스트를 실행합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To run the tests,
+first start the fake ELPA server:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132224Z" creationid="nacyot" creationdate="20140425T132224Z">
+        <seg>테스트를 실행하기 위해서 가짜 ELPA 서버를 실행합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To run the unit tests:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132235Z" creationid="nacyot" creationdate="20140425T132235Z">
+        <seg>단위 테스트를 실행합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To specify a
+custom Emacs, use the `EMACS` environment variable, for example:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T010208Z" creationid="nacyot" creationdate="20140425T153917Z">
+        <seg>따라서 특정한 버전의 Emacs를 사용하고자 할 때는 `EMACS` 환경변수를 아래와 같이 지정합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To upgrade Cask itself and its dependencies, run:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032748Z" creationid="nacyot" creationdate="20140425T135224Z">
+        <seg>Cask와 Cask의 의존 라이브러리들을 업그레이드하려면 아래 명령어를 실행하세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Update all dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135537Z" creationid="nacyot" creationdate="20140425T135537Z">
+        <seg>모든 의존 라이브러리를 업데이트합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Update dependencies and return list of updated dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005126Z" creationid="nacyot" creationdate="20140426T005126Z">
+        <seg>의존 라이브러리를 업데이트하고 업데이트된 의존 라이브러리의 리스트를 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Upgrade Cask and
+its dependencies using `cask upgrade-cask` (avoid upgrading using `git
+pull` or similar).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T114459Z" creationid="nacyot" creationdate="20140425T151750Z">
+        <seg>Cask를 업그레이드하고 `cask upgrade-cask` 명령어로 의존 라이브러리를 업그레이드합니다.(`git pull` 명령어로 직접 디렉토리를 변경하는 방법은 추천하지 않습니다)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Upgrade Cask and all its dependencies.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T154430Z" creationid="nacyot" creationdate="20140425T154430Z">
+        <seg>Cask와 의존 라이브러리를 업그레이드합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Use
+the `init` command to create a `Cask`-file automatically, containing
+boilerplate code.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032818Z" creationid="nacyot" creationdate="20140425T153246Z">
+        <seg>`init` 명령어를 통해 간단한 골격을 포함한 `Cask` 파일을 자동으로 생성할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Use this
+function for your local Emacs configuration and `cask-setup` for
+packages.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005104Z" creationid="nacyot" creationdate="20140426T005041Z">
+        <seg>`cask-initialize`는 Emacs를 설정할 때 사용합니다. 패키지를 만들 때는 `cask-setup`을 사용하세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Use this function for
+packages and `cask-initialize` for your local Emacs configuration.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140426T005045Z" creationid="nacyot" creationdate="20140426T004932Z">
+        <seg>`cask-setup`은 패키지를 관리하는데 사용합니다. Emacs 설정을 할 때는 `cask-initialize`을 사용하세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Visit &lt;http://cask.github.io/&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T230822Z" creationid="nacyot" creationdate="20140424T230822Z">
+        <seg>&lt;http://cask.github.io/&gt;를 방문해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>With this
+option, all output will show.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T104945Z" creationid="nacyot" creationdate="20140425T135838Z">
+        <seg>이 옵션을 사용하면 숨기는 내용없이 모든 내용이 출력됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Yes, Cask is using Cask!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T121157Z" creationid="nacyot" creationdate="20140427T120808Z">
+        <seg>Cask도 Cask를 써서 의존성관리를 합니다! </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can also clone the repository directly.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032713Z" creationid="nacyot" creationdate="20140425T135051Z">
+        <seg>저장소를 직접 클론하는 방법도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You know where to look if you want to
+find out what dependencies a configuration has and it's easy to keep
+packages up to date.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032653Z" creationid="nacyot" creationdate="20140425T152913Z">
+        <seg>의존 라이브러리와 그 설정이 어디있는지 쉽게 찾을 수 있을 뿐 아니라 최신 버전으로 업그레이드하는 것도 쉽습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You should not modify this object directly, but use the API
+functions to do so.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T113826Z" creationid="nacyot" creationdate="20140426T004758Z">
+        <seg>번들 객체를 직접 조작하지 마세요. API 함수들을 이용해서 조작하시기 바랍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[Create an issue](github.com/cask/cask/issues/new)
+and we will help you.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T114516Z" creationid="nacyot" creationdate="20140425T151900Z">
+        <seg>공식 저장소에 [이슈를 생성(Create an issue)](github.com/cask/cask/issues/new)하고 도움을 요청합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>_(Use `--dev` if the project is for package development)_</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032832Z" creationid="nacyot" creationdate="20140425T153255Z">
+        <seg>_(`--dev` 옵션은 개발 모드로 Cask를 실행할 때 사용합니다)_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>en</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120445Z" creationid="nacyot" creationdate="20140427T120445Z">
+        <seg>en</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>img/cask-file.png</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120726Z" creationid="nacyot" creationdate="20140427T120726Z">
+        <seg>img/cask-file.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>layout: default
+permalink: why-cask.html
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132524Z" creationid="nacyot" creationdate="20140425T132524Z">
+        <seg>layout: default
+permalink: why-cask.html
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% else %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120455Z" creationid="nacyot" creationdate="20140427T120455Z">
+        <seg>{% else %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% endif %} {% endfor %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120458Z" creationid="nacyot" creationdate="20140427T120458Z">
+        <seg>{% endif %} {% endfor %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% for node in site.pages %} {% if page.url == node.url %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120455Z" creationid="nacyot" creationdate="20140427T120455Z">
+        <seg>{% for node in site.pages %} {% if page.url == node.url %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ EMACS="$(evm bin emacs-24.1)" cask command
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135322Z" creationid="nacyot" creationdate="20140425T135322Z">
+        <seg>{% highlight bash %}
+$ EMACS="$(evm bin emacs-24.1)" cask command
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ brew install cask
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134934Z" creationid="nacyot" creationdate="20140425T134934Z">
+        <seg>{% highlight bash %}
+$ brew install cask
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask
+$ cask install
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135455Z" creationid="nacyot" creationdate="20140425T135455Z">
+        <seg>{% highlight bash %}
+$ cask
+$ cask install
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask --debug
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135704Z" creationid="nacyot" creationdate="20140425T135704Z">
+        <seg>{% highlight bash %}
+$ cask --debug
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask --dev
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135701Z" creationid="nacyot" creationdate="20140425T135701Z">
+        <seg>{% highlight bash %}
+$ cask --dev
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask --path /path/to
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135719Z" creationid="nacyot" creationdate="20140425T135719Z">
+        <seg>{% highlight bash %}
+$ cask --path /path/to
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask --version
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135620Z" creationid="nacyot" creationdate="20140425T135620Z">
+        <seg>{% highlight bash %}
+$ cask --version
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask [install]
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135310Z" creationid="nacyot" creationdate="20140425T135310Z">
+        <seg>{% highlight bash %}
+$ cask [install]
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask build
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135602Z" creationid="nacyot" creationdate="20140425T135602Z">
+        <seg>{% highlight bash %}
+$ cask build
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask clean-elc
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135604Z" creationid="nacyot" creationdate="20140425T135604Z">
+        <seg>{% highlight bash %}
+$ cask clean-elc
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask exec echo foo
+$ cask exec ecukes --script --reporter gangsta
+$ cask exec ert-runner --pattern performance
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135334Z" creationid="nacyot" creationdate="20140425T135334Z">
+        <seg>{% highlight bash %}
+$ cask exec echo foo
+$ cask exec ecukes --script --reporter gangsta
+$ cask exec ert-runner --pattern performance
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask files
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135552Z" creationid="nacyot" creationdate="20140425T135552Z">
+        <seg>{% highlight bash %}
+$ cask files
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask help
+$ cask -h
+$ cask --help
+$ cask --help command
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135338Z" creationid="nacyot" creationdate="20140425T135338Z">
+        <seg>{% highlight bash %}
+$ cask help
+$ cask -h
+$ cask --help
+$ cask --help command
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask info
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135442Z" creationid="nacyot" creationdate="20140425T135442Z">
+        <seg>{% highlight bash %}
+$ cask info
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask init       # For Emacs configuration
+$ cask init --dev # For package development
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135452Z" creationid="nacyot" creationdate="20140425T135452Z">
+        <seg>{% highlight bash %}
+$ cask init       # For Emacs configuration
+$ cask init --dev # For package development
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask init [--dev]
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135307Z" creationid="nacyot" creationdate="20140425T135307Z">
+        <seg>{% highlight bash %}
+$ cask init [--dev]
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask install --verbose
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135838Z" creationid="nacyot" creationdate="20140425T135838Z">
+        <seg>{% highlight bash %}
+$ cask install --verbose
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask link list                 # List all links
+$ cask link ecukes ~/Code/ecukes # Create link to local Ecukes
+$ cask link delete ecukes        # Delete Ecukes link
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135607Z" creationid="nacyot" creationdate="20140425T135607Z">
+        <seg>{% highlight bash %}
+$ cask link list                 # List all links
+$ cask link ecukes ~/Code/ecukes # Create link to local Ecukes
+$ cask link delete ecukes        # Delete Ecukes link
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask list
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135458Z" creationid="nacyot" creationdate="20140425T135458Z">
+        <seg>{% highlight bash %}
+$ cask list
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask load-path
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135500Z" creationid="nacyot" creationdate="20140425T135500Z">
+        <seg>{% highlight bash %}
+$ cask load-path
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask outdated
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135502Z" creationid="nacyot" creationdate="20140425T135502Z">
+        <seg>{% highlight bash %}
+$ cask outdated
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask package
+$ cask package /path/to/dist
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135608Z" creationid="nacyot" creationdate="20140425T135608Z">
+        <seg>{% highlight bash %}
+$ cask package
+$ cask package /path/to/dist
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask package
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135507Z" creationid="nacyot" creationdate="20140425T135507Z">
+        <seg>{% highlight bash %}
+$ cask package
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask package-directory
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135527Z" creationid="nacyot" creationdate="20140425T135527Z">
+        <seg>{% highlight bash %}
+$ cask package-directory
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask path
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135530Z" creationid="nacyot" creationdate="20140425T135530Z">
+        <seg>{% highlight bash %}
+$ cask path
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask update
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135532Z" creationid="nacyot" creationdate="20140425T135532Z">
+        <seg>{% highlight bash %}
+$ cask update
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask upgrade-cask
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134936Z" creationid="nacyot" creationdate="20140425T134936Z">
+        <seg>{% highlight bash %}
+$ cask upgrade-cask
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ cask version
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135551Z" creationid="nacyot" creationdate="20140425T135551Z">
+        <seg>{% highlight bash %}
+$ cask version
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ curl -fsSkL https://raw.github.com/cask/cask/master/go | python
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134933Z" creationid="nacyot" creationdate="20140425T134933Z">
+        <seg>{% highlight bash %}
+$ curl -fsSkL https://raw.github.com/cask/cask/master/go | python
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ export PATH="/path/to/code/cask/bin:$PATH"
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134935Z" creationid="nacyot" creationdate="20140425T134935Z">
+        <seg>{% highlight bash %}
+$ export PATH="/path/to/code/cask/bin:$PATH"
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ git clone https://github.com/cask/cask.git ~/.cask
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T134934Z" creationid="nacyot" creationdate="20140425T134934Z">
+        <seg>{% highlight bash %}
+$ git clone https://github.com/cask/cask.git ~/.cask
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ make ecukes
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132241Z" creationid="nacyot" creationdate="20140425T132241Z">
+        <seg>{% highlight bash %}
+$ make ecukes
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ make start-server
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132226Z" creationid="nacyot" creationdate="20140425T132226Z">
+        <seg>{% highlight bash %}
+$ make start-server
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ make test
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132251Z" creationid="nacyot" creationdate="20140425T132251Z">
+        <seg>{% highlight bash %}
+$ make test
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ make unit
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T132236Z" creationid="nacyot" creationdate="20140425T132236Z">
+        <seg>{% highlight bash %}
+$ make unit
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight bash %}
+$ source /path/to/code/cask/etc/cask_completion.zsh
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232321Z" creationid="nacyot" creationdate="20140424T232321Z">
+        <seg>{% highlight bash %}
+$ source /path/to/code/cask/etc/cask_completion.zsh
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-add-dependency bundle "name" "http://path.to.elpa/packages/")
+(cask-add-dependency bundle 'alias)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231859Z" creationid="nacyot" creationdate="20140424T231859Z">
+        <seg>{% highlight cl %}
+(cask-add-dependency bundle "name" "http://path.to.elpa/packages/")
+(cask-add-dependency bundle 'alias)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-add-dependency bundle 'foo)
+(cask-add-dependency bundle 'foo "1.2.3")
+(cask-add-dependency bundle 'foo :git "https://foo.git" :ref "ij7ads0" :files '("*.el" (:exclude ".git")))
+(cask-add-dependency bundle 'foo :git "https://foo.git" :branch "experimental")
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231847Z" creationid="nacyot" creationdate="20140424T231847Z">
+        <seg>{% highlight cl %}
+(cask-add-dependency bundle 'foo)
+(cask-add-dependency bundle 'foo "1.2.3")
+(cask-add-dependency bundle 'foo :git "https://foo.git" :ref "ij7ads0" :files '("*.el" (:exclude ".git")))
+(cask-add-dependency bundle 'foo :git "https://foo.git" :branch "experimental")
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-build bundle)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231913Z" creationid="nacyot" creationdate="20140424T231913Z">
+        <seg>{% highlight cl %}
+(cask-build bundle)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-caskify bundle)           ;; For Emacs configuration
+(cask-caskify bundle 'dev-mode) ;; For packages
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231107Z" creationid="nacyot" creationdate="20140424T231107Z">
+        <seg>{% highlight cl %}
+(cask-caskify bundle)           ;; For Emacs configuration
+(cask-caskify bundle 'dev-mode) ;; For packages
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-clean-elc bundle)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231950Z" creationid="nacyot" creationdate="20140424T231950Z">
+        <seg>{% highlight cl %}
+(cask-clean-elc bundle)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-define-package-file bundle) ;; =&gt; "/path/to/project-pkg.el"
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231711Z" creationid="nacyot" creationdate="20140424T231711Z">
+        <seg>{% highlight cl %}
+(cask-define-package-file bundle) ;; =&gt; "/path/to/project-pkg.el"
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-define-package-string bundle) ;; =&gt; "(define-package ...)"
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231707Z" creationid="nacyot" creationdate="20140424T231707Z">
+        <seg>{% highlight cl %}
+(cask-define-package-string bundle) ;; =&gt; "(define-package ...)"
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-delete-link bundle 'foo)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232012Z" creationid="nacyot" creationdate="20140424T232012Z">
+        <seg>{% highlight cl %}
+(cask-delete-link bundle 'foo)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-dependencies bundle)
+(cask-dependencies bundle 'deep)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231210Z" creationid="nacyot" creationdate="20140424T231210Z">
+        <seg>{% highlight cl %}
+(cask-dependencies bundle)
+(cask-dependencies bundle 'deep)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-dependency-path bundle 'foo) ;; =&gt; "/path/to/.cask/24.3.1/elpa/foo-1.3.3"
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231733Z" creationid="nacyot" creationdate="20140424T231733Z">
+        <seg>{% highlight cl %}
+(cask-dependency-path bundle 'foo) ;; =&gt; "/path/to/.cask/24.3.1/elpa/foo-1.3.3"
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-development-dependencies bundle)
+(cask-development-dependencies bundle 'deep)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231206Z" creationid="nacyot" creationdate="20140424T231206Z">
+        <seg>{% highlight cl %}
+(cask-development-dependencies bundle)
+(cask-development-dependencies bundle 'deep)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-elpa-path bundle) ;; =&gt; "/path/to/.cask/24.3.1/elpa"
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231147Z" creationid="nacyot" creationdate="20140424T231147Z">
+        <seg>{% highlight cl %}
+(cask-elpa-path bundle) ;; =&gt; "/path/to/.cask/24.3.1/elpa"
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-exec-path bundle) ;; =&gt; '("/path/to/.cask/24.3.1/elpa/foo-1.2.3/bin" ...)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231146Z" creationid="nacyot" creationdate="20140424T231146Z">
+        <seg>{% highlight cl %}
+(cask-exec-path bundle) ;; =&gt; '("/path/to/.cask/24.3.1/elpa/foo-1.2.3/bin" ...)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-file bundle) ;; =&gt; "/path/to/Cask"
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231802Z" creationid="nacyot" creationdate="20140424T231802Z">
+        <seg>{% highlight cl %}
+(cask-file bundle) ;; =&gt; "/path/to/Cask"
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-files bundle) ;; =&gt; '("foo.el" "foo-core.el" ...)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231808Z" creationid="nacyot" creationdate="20140424T231808Z">
+        <seg>{% highlight cl %}
+(cask-files bundle) ;; =&gt; '("foo.el" "foo-core.el" ...)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-find-dependency bundle 'foo)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231704Z" creationid="nacyot" creationdate="20140424T231704Z">
+        <seg>{% highlight cl %}
+(cask-find-dependency bundle 'foo)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-has-dependency bundle 'foo)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231258Z" creationid="nacyot" creationdate="20140424T231258Z">
+        <seg>{% highlight cl %}
+(cask-has-dependency bundle 'foo)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-install bundle)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231053Z" creationid="nacyot" creationdate="20140424T231053Z">
+        <seg>{% highlight cl %}
+(cask-install bundle)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-installed-dependencies bundle)
+(cask-installed-dependencies bundle 'deep)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231211Z" creationid="nacyot" creationdate="20140424T231211Z">
+        <seg>{% highlight cl %}
+(cask-installed-dependencies bundle)
+(cask-installed-dependencies bundle 'deep)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-link bundle 'foo "/path/to/foo")
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231957Z" creationid="nacyot" creationdate="20140424T231957Z">
+        <seg>{% highlight cl %}
+(cask-link bundle 'foo "/path/to/foo")
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-linked-p bundle 'foo)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232014Z" creationid="nacyot" creationdate="20140424T232014Z">
+        <seg>{% highlight cl %}
+(cask-linked-p bundle 'foo)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-links bundle) ;; =&gt; '((foo "/path/to/too") (bar "/path/to/bar"))
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231955Z" creationid="nacyot" creationdate="20140424T231955Z">
+        <seg>{% highlight cl %}
+(cask-links bundle) ;; =&gt; '((foo "/path/to/too") (bar "/path/to/bar"))
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-load-path bundle) ;; =&gt; '("/path/to/.cask/24.3.1/elpa/foo-1.2.3" ...)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231144Z" creationid="nacyot" creationdate="20140424T231144Z">
+        <seg>{% highlight cl %}
+(cask-load-path bundle) ;; =&gt; '("/path/to/.cask/24.3.1/elpa/foo-1.2.3" ...)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-package bundle)
+(cask-package bundle "/path/to/dist")
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232128Z" creationid="nacyot" creationdate="20140424T232128Z">
+        <seg>{% highlight cl %}
+(cask-package bundle)
+(cask-package bundle "/path/to/dist")
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-package-description bundle) ;; =&gt; "Description for Foo package"
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231132Z" creationid="nacyot" creationdate="20140424T231132Z">
+        <seg>{% highlight cl %}
+(cask-package-description bundle) ;; =&gt; "Description for Foo package"
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-package-name bundle) ;; =&gt; 'foo
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231114Z" creationid="nacyot" creationdate="20140424T231114Z">
+        <seg>{% highlight cl %}
+(cask-package-name bundle) ;; =&gt; 'foo
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-package-version bundle) ;; =&gt; "0.1.2"
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231117Z" creationid="nacyot" creationdate="20140424T231117Z">
+        <seg>{% highlight cl %}
+(cask-package-version bundle) ;; =&gt; "0.1.2"
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-path bundle) ;; =&gt; "/path/to"
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231743Z" creationid="nacyot" creationdate="20140424T231743Z">
+        <seg>{% highlight cl %}
+(cask-path bundle) ;; =&gt; "/path/to"
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-remove-dependency bundle "name")
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231908Z" creationid="nacyot" creationdate="20140424T231908Z">
+        <seg>{% highlight cl %}
+(cask-remove-dependency bundle "name")
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-runtime-dependencies bundle)
+(cask-runtime-dependencies bundle 'deep)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231205Z" creationid="nacyot" creationdate="20140424T231205Z">
+        <seg>{% highlight cl %}
+(cask-runtime-dependencies bundle)
+(cask-runtime-dependencies bundle 'deep)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(cask-version)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231140Z" creationid="nacyot" creationdate="20140424T231140Z">
+        <seg>{% highlight cl %}
+(cask-version)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(depends-on "ecukes")
+(depends-on "magit" "0.8.1")
+(depends-on "magit" :git "https://github.com/magit/magit.git")
+(depends-on "magit" :git "https://github.com/magit/magit.git" :ref "7j3bj4d")
+(depends-on "magit" :git "https://github.com/magit/magit.git" :branch "next")
+(depends-on "magit" :git "https://github.com/magit/magit.git" :files ("*.el" (:exclude "magit-svn.el")))
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232209Z" creationid="nacyot" creationdate="20140424T232209Z">
+        <seg>{% highlight cl %}
+(depends-on "ecukes")
+(depends-on "magit" "0.8.1")
+(depends-on "magit" :git "https://github.com/magit/magit.git")
+(depends-on "magit" :git "https://github.com/magit/magit.git" :ref "7j3bj4d")
+(depends-on "magit" :git "https://github.com/magit/magit.git" :branch "next")
+(depends-on "magit" :git "https://github.com/magit/magit.git" :files ("*.el" (:exclude "magit-svn.el")))
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(depends-on NAME [ARGS])
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232157Z" creationid="nacyot" creationdate="20140424T232157Z">
+        <seg>{% highlight cl %}
+(depends-on NAME [ARGS])
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(development
+ (depends-on "ecukes")
+ (depends-on "ert-runner"))
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232215Z" creationid="nacyot" creationdate="20140424T232215Z">
+        <seg>{% highlight cl %}
+(development
+ (depends-on "ecukes")
+ (depends-on "ert-runner"))
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(development [DEPENDENCIES])
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232214Z" creationid="nacyot" creationdate="20140424T232214Z">
+        <seg>{% highlight cl %}
+(development [DEPENDENCIES])
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(files "foo.el")
+(files "foo.el" "foo-core.el")
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232219Z" creationid="nacyot" creationdate="20140424T232219Z">
+        <seg>{% highlight cl %}
+(files "foo.el")
+(files "foo.el" "foo-core.el")
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(files [FILES])
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232218Z" creationid="nacyot" creationdate="20140424T232218Z">
+        <seg>{% highlight cl %}
+(files [FILES])
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(let ((bundle (cask-initialize "/path/to/project")))
+  ;; ...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231012Z" creationid="nacyot" creationdate="20140424T231012Z">
+        <seg>{% highlight cl %}
+(let ((bundle (cask-initialize "/path/to/project")))
+  ;; ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(let ((bundle (cask-setup "/path/to/project")))
+  ;; ...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231014Z" creationid="nacyot" creationdate="20140424T231014Z">
+        <seg>{% highlight cl %}
+(let ((bundle (cask-setup "/path/to/project")))
+  ;; ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(let ((outdated (cask-outdated bundle)))
+  ;; ...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231025Z" creationid="nacyot" creationdate="20140424T231025Z">
+        <seg>{% highlight cl %}
+(let ((outdated (cask-outdated bundle)))
+  ;; ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(let ((updated (cask-update bundle)))
+  ;; ...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T231021Z" creationid="nacyot" creationdate="20140424T231021Z">
+        <seg>{% highlight cl %}
+(let ((updated (cask-update bundle)))
+  ;; ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(package "ecukes" "0.2.1" "Cucumber for Emacs.")
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232151Z" creationid="nacyot" creationdate="20140424T232151Z">
+        <seg>{% highlight cl %}
+(package "ecukes" "0.2.1" "Cucumber for Emacs.")
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(package NAME VERSION DESCRIPTION)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232149Z" creationid="nacyot" creationdate="20140424T232149Z">
+        <seg>{% highlight cl %}
+(package NAME VERSION DESCRIPTION)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(package-file "foo.el")
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232155Z" creationid="nacyot" creationdate="20140424T232155Z">
+        <seg>{% highlight cl %}
+(package-file "foo.el")
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(package-file FILENAME)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232154Z" creationid="nacyot" creationdate="20140424T232154Z">
+        <seg>{% highlight cl %}
+(package-file FILENAME)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140425T135310Z" creationid="nacyot" creationdate="20140425T135310Z">
+        <seg>{% highlight cl %}
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(require 'package)
+(package-initialize)
+(mapc
+ (lambda (package)
+   (unless (package-installed-p package)
+     (package-install package)))
+ '(s f dash flycheck prodigy ...))
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T032435Z" creationid="nacyot" creationdate="20140425T134215Z">
+        <seg>{% highlight cl %}
+(require 'package)
+(package-initialize)
+(mapc
+ (lambda (package)
+   (unless (package-installed-p package)
+     (package-install package)))
+ '(s f dash flycheck prodigy ...))
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(source ALIAS)
+(source NAME URL)
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232142Z" creationid="nacyot" creationdate="20140424T232142Z">
+        <seg>{% highlight cl %}
+(source ALIAS)
+(source NAME URL)
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(source melpa)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232244Z" creationid="nacyot" creationdate="20140424T232244Z">
+        <seg>{% highlight cl %}
+(source melpa)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{% highlight cl %}
+(source melpa)
+(source "melpa" "http://melpa.milkbox.net/packages/")
+{% endhighlight %}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140424T232143Z" creationid="nacyot" creationdate="20140424T232143Z">
+        <seg>{% highlight cl %}
+(source melpa)
+(source "melpa" "http://melpa.milkbox.net/packages/")
+{% endhighlight %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{{ content }}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120459Z" creationid="nacyot" creationdate="20140427T120459Z">
+        <seg>{{ content }}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{{ page.title }}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120451Z" creationid="nacyot" creationdate="20140427T120451Z">
+        <seg>{{ page.title }}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{{node.title}}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120455Z" creationid="nacyot" creationdate="20140427T120455Z">
+        <seg>{{node.title}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{{node.url}}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T120455Z" creationid="nacyot" creationdate="20140427T120455Z">
+        <seg>{{node.url}}</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
