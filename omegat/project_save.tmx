@@ -1096,9 +1096,9 @@ layout: default
 permalink: api.html
 ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T131418Z" creationid="nacyot" creationdate="20140424T230945Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T133935Z" creationid="nacyot" creationdate="20140424T230945Z">
         <seg>---
-title: 04 API
+title: API
 layout: default
 permalink: api.html
 ---</seg>
@@ -1112,9 +1112,9 @@ layout: default
 permalink: dsl.html
 ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T131422Z" creationid="nacyot" creationdate="20140424T232131Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T133938Z" creationid="nacyot" creationdate="20140424T232131Z">
         <seg>---
-title: 05 DSL
+title: DSL
 layout: default
 permalink: dsl.html
 ---</seg>
@@ -1128,9 +1128,9 @@ layout: default
 permalink: development.html
 ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T131450Z" creationid="nacyot" creationdate="20140424T232349Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T133949Z" creationid="nacyot" creationdate="20140424T232349Z">
         <seg>---
-title: 10 개발
+title: 개발
 layout: default
 permalink: development.html
 ---</seg>
@@ -1144,9 +1144,9 @@ layout: default
 permalink: examples.html
 ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T131429Z" creationid="nacyot" creationdate="20140424T232221Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T133940Z" creationid="nacyot" creationdate="20140424T232221Z">
         <seg>---
-title: 06 예제
+title: 예제
 layout: default
 permalink: examples.html
 ---</seg>
@@ -1160,9 +1160,9 @@ layout: default
 permalink: installation.html
 ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T131411Z" creationid="nacyot" creationdate="20140425T134929Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T133931Z" creationid="nacyot" creationdate="20140425T134929Z">
         <seg>---
-title: 02 설치
+title: 설치
 layout: default
 permalink: installation.html
 ---</seg>
@@ -1176,9 +1176,9 @@ layout: default
 permalink: tools.html
 ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T131431Z" creationid="nacyot" creationdate="20140424T232305Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T133943Z" creationid="nacyot" creationdate="20140424T232305Z">
         <seg>---
-title: 07 도구
+title: 도구
 layout: default
 permalink: tools.html
 ---</seg>
@@ -1192,9 +1192,9 @@ layout: default
 permalink: troubleshoot.html
 ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T131435Z" creationid="nacyot" creationdate="20140425T140035Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T133945Z" creationid="nacyot" creationdate="20140425T140035Z">
         <seg>---
-title: 08 문제 해결하기
+title: 문제 해결하기
 layout: default
 permalink: troubleshoot.html
 ---</seg>
@@ -1208,9 +1208,9 @@ layout: default
 permalink: usage.html
 ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T131407Z" creationid="nacyot" creationdate="20140425T135230Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T133933Z" creationid="nacyot" creationdate="20140425T135230Z">
         <seg>---
-title: 03 사용법
+title: 사용법
 layout: default
 permalink: usage.html
 ---</seg>
@@ -1221,9 +1221,9 @@ permalink: usage.html
         <seg>---
 title: Why Cask?</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T132519Z" creationid="nacyot" creationdate="20140425T132520Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T133928Z" creationid="nacyot" creationdate="20140425T132520Z">
         <seg>---
-title: 01 왜 Cask인가?
+title: 왜 Cask인가?
 </seg>
       </tuv>
     </tu>
@@ -1231,9 +1231,9 @@ title: 01 왜 Cask인가?
       <tuv lang="EN">
         <seg>--- title: Cask layout: default permalink: index.html ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T132354Z" creationid="nacyot" creationdate="20140427T120543Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T133926Z" creationid="nacyot" creationdate="20140427T120543Z">
         <seg>---
-title: 00 Cask 
+title: Cask 
 layout: default 
 permalink: index.html 
 ---</seg>
