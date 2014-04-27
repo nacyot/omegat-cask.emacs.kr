@@ -1413,8 +1413,8 @@ specified) directory.</seg>
       <tuv lang="EN">
         <seg>But there's one thing still missing and that is consistency.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140425T133442Z" creationid="nacyot" creationdate="20140425T133408Z">
-        <seg>하지만 이러한 발전에도 불구하고 일관성에 대해서만은 여전히 발전이 없었습니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T160815Z" creationid="nacyot" creationdate="20140425T133408Z">
+        <seg>하지만 이러한 발전에도 불구하고 일관성에 관한 부분만은 여전히 발전이 없었습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1700,8 +1700,8 @@ doc-string.</seg>
 Wiki, to high quality packages, using VCS, that are tested,
 installable via a package manager and more.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T032033Z" creationid="nacyot" creationdate="20140425T133340Z">
-        <seg>예전에는 Emacs Lisp 파일 하나를 Emacs 위키에 업로드했습니다. 이런 상황에서 벗어나 이제는 VCS에 잘 완성된 패키지들이 올라고, 테스트도 하고, 나아가 패키지 매니저로 설치할 수 있는 등 많은 변화가 있었습니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T160804Z" creationid="nacyot" creationdate="20140425T133340Z">
+        <seg>예전에는 Emacs Lisp 파일 하나를 Emacs 위키에 업로드했습니다. 이런 상황에서 벗어나 이제는 VCS에 잘 완성된 패키지들을 올리고, 테스트도 하고, 나아가 패키지 매니저로 설치할 수 있는 등 많은 변화가 있었습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1841,8 +1841,8 @@ can try yourself.</seg>
         <seg>If you want to find the test for a specific feature, you know
 exactly where to look.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T032135Z" creationid="nacyot" creationdate="20140425T133757Z">
-        <seg>특정 기능의 테스트를 찾고자 한 데도, 어디에 있는 지 뻔히 예상 가능합니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T160909Z" creationid="nacyot" creationdate="20140425T133757Z">
+        <seg>특정 기능의 테스트도 당연히 있어야할 곳에 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2295,8 +2295,8 @@ version.</seg>
         <seg>So, even if you feel that your Emacs Lisp project does not have direct
 benefit of using Cask, please do so any way.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T032155Z" creationid="nacyot" creationdate="20140425T152441Z">
-        <seg>자신의 Emacs Lisp 프로젝트에 직접적인 필요가 없더라도 Cask는 필요합니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T160921Z" creationid="nacyot" creationdate="20140425T152441Z">
+        <seg>자신의 Emacs Lisp 프로젝트에 직접적인 필요가 없어보이더라도 Cask는 필요합니다.</seg>
       </tuv>
     </tu>
     <tu>
