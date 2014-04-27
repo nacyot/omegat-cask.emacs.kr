@@ -808,8 +808,9 @@
       <tuv lang="EN">
         <seg>* Clojure projects have a `project.clj` file?</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140425T132832Z" creationid="nacyot" creationdate="20140425T132829Z">
-        <seg>* Clojure 프로젝트에는 `project.clj`가 있죠?</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T144417Z" creationid="nacyot" creationdate="20140425T132829Z">
+        <seg>* Clojure 프로젝트에는 `project.clj`가 있죠?
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -832,40 +833,45 @@
       <tuv lang="EN">
         <seg>* Emacs Lisp projects have a `Cask` file?</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140425T132845Z" creationid="nacyot" creationdate="20140425T132845Z">
-        <seg>* Emacs Lisp 프로젝트에는 `Cask` 파일이 있죠?</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T144419Z" creationid="nacyot" creationdate="20140425T132845Z">
+        <seg>* Emacs Lisp 프로젝트에는 `Cask` 파일이 있죠?
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Node.js projects have a `package.json` file?</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140425T132819Z" creationid="nacyot" creationdate="20140425T132819Z">
-        <seg>* Node.js 프로젝트에는 `package.json`이 있죠?</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T144415Z" creationid="nacyot" creationdate="20140425T132819Z">
+        <seg>* Node.js 프로젝트에는 `package.json`이 있죠?
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Ruby projects have a `gemspec` file?</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140425T132807Z" creationid="nacyot" creationdate="20140425T132807Z">
-        <seg>* Ruby 프로젝트에는 `Gemfile`이 있죠?</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T144412Z" creationid="nacyot" creationdate="20140425T132807Z">
+        <seg>* Ruby 프로젝트에는 `Gemfile`이 있죠?
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Some Emacs Lisp projects does not have a `Cask` file?</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140425T152035Z" creationid="nacyot" creationdate="20140425T152035Z">
-        <seg>* Emacs Lisp 프로젝트 중에는 `Cask` 파일이 없는 경우도 있죠?</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T144427Z" creationid="nacyot" creationdate="20140425T152035Z">
+        <seg>* Emacs Lisp 프로젝트 중에는 `Cask` 파일이 없는 경우도 있죠?
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Some Emacs Lisp projects have a `Cask` file?</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140425T132924Z" creationid="nacyot" creationdate="20140425T132924Z">
-        <seg>* Emacs Lisp 프로젝트 중에는 `Cask` 파일이 있는 경우도 있죠?</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T144423Z" creationid="nacyot" creationdate="20140425T132924Z">
+        <seg>* Emacs Lisp 프로젝트 중에는 `Cask` 파일이 있는 경우도 있죠?
+</seg>
       </tuv>
     </tu>
     <tu>
