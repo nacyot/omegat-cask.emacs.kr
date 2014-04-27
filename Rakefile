@@ -8,7 +8,7 @@ task :default_task do
 end
 
 task :add_link_to_translator do
-  content = open('target/index.html', 'r').read.gsub(/nacyot/, "<a href='http://nacyot.com'>nacyot</a>")
+  content = open('target/_layouts/default.html', 'r').read.gsub(/{{ content }}/, "{{content}} </div><div>nacyot")
   File.open('target/index.html', 'w+'){ |f| f.write content }
 end
 
