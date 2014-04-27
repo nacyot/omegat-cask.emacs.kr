@@ -3852,7 +3852,7 @@ $ source /path/to/code/cask/etc/cask_completion.zsh
       <tuv lang="EN">
         <seg>{{ content }}</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T120459Z" creationid="nacyot" creationdate="20140427T120459Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T123309Z" creationid="nacyot" creationdate="20140427T120459Z">
         <seg>{{ content }}</seg>
       </tuv>
     </tu>

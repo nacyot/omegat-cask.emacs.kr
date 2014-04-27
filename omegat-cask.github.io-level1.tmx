@@ -2644,8 +2644,8 @@ option, all output will show.</seg>
       <tuv lang="EN">
         <seg>Yes, Cask is using Cask!</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T120808Z" creationid="nacyot" creationdate="20140427T120808Z">
-        <seg>Cask도 Cask를 써서 의존성관리를 합니다!</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T121157Z" creationid="nacyot" creationdate="20140427T120808Z">
+        <seg>Cask도 Cask를 써서 의존성관리를 합니다! </seg>
       </tuv>
     </tu>
     <tu>
@@ -3852,7 +3852,7 @@ $ source /path/to/code/cask/etc/cask_completion.zsh
       <tuv lang="EN">
         <seg>{{ content }}</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T120459Z" creationid="nacyot" creationdate="20140427T120459Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T123309Z" creationid="nacyot" creationdate="20140427T120459Z">
         <seg>{{ content }}</seg>
       </tuv>
     </tu>
