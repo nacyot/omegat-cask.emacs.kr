@@ -10,14 +10,13 @@ env:
   - secure: JKHtv1rUnfdngdBR5PNExPvVvngv3M1h2Juj3ay9YEmR719AUuPg7sH0a4Ty8+9HC4WodUQlMCrXz8Guk1uQ6luFln5IE+wvXSmL8wALKXWwn+w+oAZxt0njprDnZhDpjCtLkz4m7ylRBbwZijePA6ToBLpJdTr918ceDzjsbvk=
 before_install:
 - sudo apt-get install -qq openjdk-6-jdk omegat
-- gem install nokogiri
 before_script:
 - rm -rf target
 - mkdir -p tm/auto
 - mkdir target
 - git clone https://github.com/nacyot/omegat-glossary.git glossary
 - git clone https://github.com/nacyot/omegat-dictionary.git dictionary
-- git clone https://github.com/nacyot/emacs.sexy.git source
+- git clone https://github.com/nacyot/cask.github.io.git source
 - git clone https://github.com/nacyot/cask.emacs.kr.git website
 script:
 - "/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java -jar /usr/share/omegat/OmegaT.jar
