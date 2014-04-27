@@ -1230,8 +1230,12 @@ title: 01 왜 Cask인가?</seg>
       <tuv lang="EN">
         <seg>--- title: Cask layout: default permalink: index.html ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T131416Z" creationid="nacyot" creationdate="20140427T120543Z">
-        <seg>--- title: 00 Cask layout: default permalink: index.html ---</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T132354Z" creationid="nacyot" creationdate="20140427T120543Z">
+        <seg>---
+title: 00 Cask 
+layout: default 
+permalink: index.html 
+---</seg>
       </tuv>
     </tu>
     <tu>
