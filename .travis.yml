@@ -18,8 +18,8 @@ before_script:
 - git clone https://github.com/nacyot/omegat-dictionary.git dictionary
 - git clone https://github.com/nacyot/cask.github.io.git source
 - git clone https://github.com/nacyot/cask.emacs.kr.git website
-- wget http://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Latest/OmegaT%203.0.8%20update%204/OmegaT_3.0.8_04_Beta_Linux.tar.bz2
-- tar xvf OmegaT_3.0.8_04_Beta_Linux.tar.bz2
+- wget http://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Latest/OmegaT%203.0.8%20update%205/OmegaT_3.0.8_05_Beta_Linux.tar.bz2
+- tar xvf OmegaT_3.0.8_05_Beta_Linux.tar.bz2
 script:
 - "/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java -jar ./OmegaT/OmegaT.jar . --mode=console-translate"
 after_success:
