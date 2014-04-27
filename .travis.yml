@@ -19,8 +19,7 @@ before_script:
 - git clone https://github.com/nacyot/cask.github.io.git source
 - git clone https://github.com/nacyot/cask.emacs.kr.git website
 script:
-- "/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java -jar /usr/share/omegat/OmegaT.jar
-  . --mode=console-translate"
+- "/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java -jar /usr/share/omegat/OmegaT.jar . --mode=console-translate"
 after_success:
 - rm -rf ./target/.git
 - cp -r ./website/.git ./target/.git
