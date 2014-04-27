@@ -26,7 +26,7 @@ after_success:
 - cp -r ./website/.git ./target/.git
 - rake rewrite_cname add_link_to_translator rebuild_sidebar resize_font
 - cd target
-- git checkout master
+- git checkout gh-pages
 - git add --all .
 - git commit -m 'Update pages from naycot/omegat-cask.emacs.kr'
-- git push --quiet https://$GH_TOKEN@github.com/nacyot/cask.emacs.kr.git master
+- git push --quiet https://$GH_TOKEN@github.com/nacyot/cask.emacs.kr.git gh-pages 
