@@ -1237,9 +1237,9 @@ title: 왜 Cask인가?
       <tuv lang="EN">
         <seg>--- title: Cask layout: default permalink: index.html ---</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T133926Z" creationid="nacyot" creationdate="20140427T120543Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T150349Z" creationid="nacyot" creationdate="20140427T120543Z">
         <seg>---
-title: Cask 
+title: Cask - 이맥스(Emacs) 패키지 개발을 위한 의존성 관리 도구 
 layout: default 
 permalink: index.html 
 ---</seg>
@@ -1454,8 +1454,8 @@ much work it would require to keep all of those up to date?</seg>
       <tuv lang="EN">
         <seg>Cask - &lt;s0&gt; Project management for Emacs package development &lt;/s0&gt;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T120528Z" creationid="nacyot" creationdate="20140427T120527Z">
-        <seg>Cask - &lt;s0&gt; 이맥스(Emacs) 패키지 개발을 위한 의존성 관리 도구</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T150325Z" creationid="nacyot" creationdate="20140427T120527Z">
+        <seg>Cask - &lt;s0&gt; 이맥스(Emacs) 패키지 개발을 위한 의존성 관리 도구&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
