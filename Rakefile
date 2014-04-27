@@ -35,7 +35,7 @@ task :rebuild_sidebar do
                 <li>
                   <a href="/why-cask.html">왜 Cask인가?</a>
                 </li>
-                <li class="active">
+                <li>
                   <a href="/troubleshoot.html">문제 해결하기</a>
                 </li>
                 <li>
