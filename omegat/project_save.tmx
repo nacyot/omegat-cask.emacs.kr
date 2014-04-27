@@ -1823,8 +1823,8 @@ look.</seg>
         <seg>If you look at the majority of Emacs configurations out there, you
 will see a few different types setups.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T032256Z" creationid="nacyot" creationdate="20140425T152544Z">
-        <seg>여러 Emacs 설정을 보신 적이 있다면, 몇 가지 자주 사용되는 설정 방법이 있다는 걸 알고 있겠죠.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T160949Z" creationid="nacyot" creationdate="20140425T152544Z">
+        <seg>여러 Emacs 설정을 보신 적이 있다면, 몇 가지 자주 사용되는 설정 방법이 있다는 건 이미 알고 계시겠죠.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2396,8 +2396,8 @@ same directory as the source file.</seg>
       <tuv lang="EN">
         <seg>These are the major ones:</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140427T032310Z" creationid="nacyot" creationdate="20140427T032310Z">
-        <seg>아래에서는 각각의 방법의 장단점을 살펴봅니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T160959Z" creationid="nacyot" creationdate="20140427T032310Z">
+        <seg>아래에서는 각 방법의 장단점을 살펴봅니다.</seg>
       </tuv>
     </tu>
     <tu>
